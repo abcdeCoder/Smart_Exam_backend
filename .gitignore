@@ -1,0 +1,10 @@
+.DS_Store
+./quickgrader/universal-sentence-encoder_4/*
+venv/*
+venv2/*
+reactapp
+cached_models/
+*.pyc
+universal-sentence-encoder-v4/
+db.sqlite3
+media/

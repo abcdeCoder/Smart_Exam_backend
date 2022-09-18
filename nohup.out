@@ -1,0 +1,2330 @@
+[nltk_data] Downloading package punkt to /root/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package stopwords to /root/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package punkt to /root/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package stopwords to /root/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+Watching for file changes with StatReloader
+2022-08-29 09:54:06.342458: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-08-29 09:54:06.342485: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-08-29 09:54:07.742529: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-08-29 09:54:07.742554: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2022-08-29 09:54:07.742571: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (localhost): /proc/driver/nvidia/version does not exist
+2022-08-29 09:54:07.742740: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+[29/Aug/2022 09:54:45] "POST /auth/token/ HTTP/1.1" 200 52
+[29/Aug/2022 09:54:45] "GET /auth/user/ HTTP/1.1" 200 107
+[29/Aug/2022 09:54:45] "GET /auth/profile/ HTTP/1.1" 200 118
+[29/Aug/2022 09:55:04] "POST /auth/token/ HTTP/1.1" 200 52
+[29/Aug/2022 09:55:04] "GET /auth/profile/ HTTP/1.1" 200 118
+[29/Aug/2022 09:55:04] "GET /auth/user/ HTTP/1.1" 200 107
+[29/Aug/2022 09:55:16] "OPTIONS /test/mytests/ HTTP/1.1" 200 0
+[29/Aug/2022 09:55:16] "GET /test/mytests/ HTTP/1.1" 200 627
+[29/Aug/2022 09:55:17] "OPTIONS /test/question/1/ HTTP/1.1" 200 0
+[29/Aug/2022 09:55:17] "OPTIONS /test/question/2/ HTTP/1.1" 200 0
+[29/Aug/2022 09:55:17] "OPTIONS /test/response/?quizID=1 HTTP/1.1" 200 0
+[29/Aug/2022 09:55:17] "OPTIONS /test/question/3/ HTTP/1.1" 200 0
+[29/Aug/2022 09:55:17] "OPTIONS /test/question/4/ HTTP/1.1" 200 0
+[29/Aug/2022 09:55:17] "OPTIONS /test/response/?quizID=2 HTTP/1.1" 200 0
+[29/Aug/2022 09:55:17] "OPTIONS /test/question/5/ HTTP/1.1" 200 0
+[29/Aug/2022 09:55:17] "OPTIONS /test/response/?quizID=3 HTTP/1.1" 200 0
+[29/Aug/2022 09:55:17] "OPTIONS /test/question/6/ HTTP/1.1" 200 0
+[29/Aug/2022 09:55:17] "OPTIONS /test/question/7/ HTTP/1.1" 200 0
+[29/Aug/2022 09:55:17] "OPTIONS /test/response/?quizID=4 HTTP/1.1" 200 0
+[29/Aug/2022 09:55:17] "OPTIONS /test/question/8/ HTTP/1.1" 200 0
+[29/Aug/2022 09:55:17] "OPTIONS /test/question/9/ HTTP/1.1" 200 0
+[29/Aug/2022 09:55:17] "OPTIONS /test/response/?quizID=5 HTTP/1.1" 200 0
+[29/Aug/2022 09:55:17] "GET /test/response/?quizID=1 HTTP/1.1" 200 2
+[29/Aug/2022 09:55:17] "GET /test/question/1/ HTTP/1.1" 200 262
+[29/Aug/2022 09:55:17] "GET /test/question/2/ HTTP/1.1" 200 112
+[29/Aug/2022 09:55:17] "GET /test/question/4/ HTTP/1.1" 200 257
+[29/Aug/2022 09:55:17] "GET /test/response/?quizID=2 HTTP/1.1" 200 2
+[29/Aug/2022 09:55:17] "GET /test/question/3/ HTTP/1.1" 200 105
+[29/Aug/2022 09:55:17] "GET /test/response/?quizID=3 HTTP/1.1" 200 238
+[29/Aug/2022 09:55:17] "GET /test/question/5/ HTTP/1.1" 200 117
+[29/Aug/2022 09:55:17] "GET /test/question/8/ HTTP/1.1" 200 138
+[29/Aug/2022 09:55:17] "GET /test/question/6/ HTTP/1.1" 200 136
+[29/Aug/2022 09:55:17] "GET /test/response/?quizID=4 HTTP/1.1" 200 80
+[29/Aug/2022 09:55:17] "GET /test/question/7/ HTTP/1.1" 200 121
+[29/Aug/2022 09:55:17] "OPTIONS /test/choice/1/ HTTP/1.1" 200 0
+[29/Aug/2022 09:55:17] "GET /test/question/9/ HTTP/1.1" 200 149
+[29/Aug/2022 09:55:17] "GET /test/response/?quizID=5 HTTP/1.1" 200 239
+[29/Aug/2022 09:55:17] "OPTIONS /test/choice/2/ HTTP/1.1" 200 0
+[29/Aug/2022 09:55:17] "OPTIONS /test/choice/3/ HTTP/1.1" 200 0
+[29/Aug/2022 09:55:17] "OPTIONS /test/choice/4/ HTTP/1.1" 200 0
+[29/Aug/2022 09:55:17] "OPTIONS /test/choice/5/ HTTP/1.1" 200 0
+[29/Aug/2022 09:55:17] "OPTIONS /test/choice/10/ HTTP/1.1" 200 0
+[29/Aug/2022 09:55:17] "OPTIONS /test/choice/11/ HTTP/1.1" 200 0
+[29/Aug/2022 09:55:17] "OPTIONS /test/choice/12/ HTTP/1.1" 200 0
+[29/Aug/2022 09:55:17] "OPTIONS /test/choice/13/ HTTP/1.1" 200 0
+[29/Aug/2022 09:55:17] "GET /auth/view-profile?username=ram HTTP/1.1" 200 86
+[29/Aug/2022 09:55:17] "OPTIONS /test/choice/6/ HTTP/1.1" 200 0
+[29/Aug/2022 09:55:17] "OPTIONS /test/choice/7/ HTTP/1.1" 200 0
+[29/Aug/2022 09:55:17] "OPTIONS /test/choice/8/ HTTP/1.1" 200 0
+[29/Aug/2022 09:55:17] "OPTIONS /test/choice/9/ HTTP/1.1" 200 0
+[29/Aug/2022 09:55:17] "GET /test/choice/1/ HTTP/1.1" 200 70
+[29/Aug/2022 09:55:17] "GET /auth/view-profile?username=shubhm HTTP/1.1" 200 90
+[29/Aug/2022 09:55:17] "GET /auth/view-profile?username=harsh HTTP/1.1" 200 88
+[29/Aug/2022 09:55:18] "GET /test/choice/2/ HTTP/1.1" 200 78
+[29/Aug/2022 09:55:18] "GET /test/choice/3/ HTTP/1.1" 200 68
+[29/Aug/2022 09:55:18] "GET /test/choice/4/ HTTP/1.1" 200 70
+[29/Aug/2022 09:55:18] "GET /test/choice/5/ HTTP/1.1" 200 78
+[29/Aug/2022 09:55:18] "GET /test/choice/11/ HTTP/1.1" 200 82
+[29/Aug/2022 09:55:18] "GET /test/choice/10/ HTTP/1.1" 200 81
+[29/Aug/2022 09:55:18] "GET /test/choice/12/ HTTP/1.1" 200 82
+[29/Aug/2022 09:55:18] "GET /auth/view-profile?username=ram HTTP/1.1" 200 86
+[29/Aug/2022 09:55:18] "GET /test/choice/13/ HTTP/1.1" 200 82
+[29/Aug/2022 09:55:18] "GET /test/choice/7/ HTTP/1.1" 200 82
+[29/Aug/2022 09:55:18] "GET /test/choice/6/ HTTP/1.1" 200 82
+[29/Aug/2022 09:55:18] "GET /test/choice/8/ HTTP/1.1" 200 81
+[29/Aug/2022 09:55:18] "GET /auth/view-profile?username=harsh HTTP/1.1" 200 88
+[29/Aug/2022 09:55:18] "GET /auth/view-profile?username=shubhm HTTP/1.1" 200 90
+[29/Aug/2022 09:55:18] "GET /test/choice/9/ HTTP/1.1" 200 82
+[29/Aug/2022 09:55:18] "GET /auth/view-profile?username=ram HTTP/1.1" 200 86
+[29/Aug/2022 10:35:16] "POST /auth/token/ HTTP/1.1" 200 52
+[29/Aug/2022 10:35:18] "GET /auth/profile/ HTTP/1.1" 200 118
+[29/Aug/2022 10:35:18] "GET /auth/user/ HTTP/1.1" 200 107
+[29/Aug/2022 10:40:21] "GET /auth/user/ HTTP/1.1" 200 107
+[29/Aug/2022 10:40:21] "GET /auth/profile/ HTTP/1.1" 200 118
+[29/Aug/2022 10:40:35] "POST /auth/token/ HTTP/1.1" 200 52
+[29/Aug/2022 10:40:36] "GET /auth/user/ HTTP/1.1" 200 107
+[29/Aug/2022 10:40:36] "GET /auth/profile/ HTTP/1.1" 200 118
+[nltk_data] Downloading package punkt to /root/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package stopwords to /root/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package punkt to /root/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package stopwords to /root/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+Watching for file changes with StatReloader
+2022-08-29 10:44:42.068459: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-08-29 10:44:42.068483: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-08-29 10:44:43.637584: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-08-29 10:44:43.637609: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2022-08-29 10:44:43.637624: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (localhost): /proc/driver/nvidia/version does not exist
+2022-08-29 10:44:43.637801: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-08-29 10:44:44.518053: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 34133760 exceeds 10% of free system memory.
+2022-08-29 10:44:44.552233: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 34133760 exceeds 10% of free system memory.
+2022-08-29 10:44:44.599867: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 34133760 exceeds 10% of free system memory.
+2022-08-29 10:44:44.652854: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 34133760 exceeds 10% of free system memory.
+2022-08-29 10:44:44.712179: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 34133760 exceeds 10% of free system memory.
+[nltk_data] Downloading package punkt to /root/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package stopwords to /root/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package punkt to /root/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package stopwords to /root/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+Watching for file changes with StatReloader
+2022-08-29 10:59:59.950825: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-08-29 10:59:59.950850: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-08-29 11:00:02.331388: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-08-29 11:00:02.331413: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2022-08-29 11:00:02.331432: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (localhost): /proc/driver/nvidia/version does not exist
+2022-08-29 11:00:02.331600: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+[29/Aug/2022 11:05:05] "POST /auth/token/ HTTP/1.1" 200 52
+[29/Aug/2022 11:05:05] "GET /auth/user/ HTTP/1.1" 200 107
+[29/Aug/2022 11:05:05] "GET /auth/profile/ HTTP/1.1" 200 118
+[nltk_data] Downloading package punkt to /root/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package stopwords to /root/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package punkt to /root/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package stopwords to /root/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+Watching for file changes with StatReloader
+2022-08-29 11:05:29.169231: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-08-29 11:05:29.169256: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-08-29 11:05:31.195607: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-08-29 11:05:31.195645: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2022-08-29 11:05:31.195661: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (localhost): /proc/driver/nvidia/version does not exist
+2022-08-29 11:05:31.195849: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-08-29 11:05:32.066349: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 34133760 exceeds 10% of free system memory.
+2022-08-29 11:05:32.094116: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 34133760 exceeds 10% of free system memory.
+2022-08-29 11:05:32.120969: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 34133760 exceeds 10% of free system memory.
+2022-08-29 11:05:32.151058: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 34133760 exceeds 10% of free system memory.
+2022-08-29 11:05:32.223724: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 34133760 exceeds 10% of free system memory.
+[29/Aug/2022 11:05:43] "POST /auth/token/ HTTP/1.1" 200 52
+[29/Aug/2022 11:05:43] "GET /auth/user/ HTTP/1.1" 200 107
+[29/Aug/2022 11:05:43] "GET /auth/profile/ HTTP/1.1" 200 118
+[29/Aug/2022 11:06:08] "POST /auth/token/ HTTP/1.1" 200 52
+[29/Aug/2022 11:06:09] "GET /auth/profile/ HTTP/1.1" 200 118
+[29/Aug/2022 11:06:09] "GET /auth/user/ HTTP/1.1" 200 107
+[29/Aug/2022 11:06:52] "POST /auth/token/ HTTP/1.1" 200 52
+[29/Aug/2022 11:06:52] "GET /auth/profile/ HTTP/1.1" 200 118
+[29/Aug/2022 11:06:52] "GET /auth/user/ HTTP/1.1" 200 107
+[29/Aug/2022 11:06:54] "OPTIONS /test/logs/ HTTP/1.1" 200 0
+[29/Aug/2022 11:06:54] "GET /test/logs/ HTTP/1.1" 200 1117
+[29/Aug/2022 11:49:12] "OPTIONS /auth/token/ HTTP/1.1" 200 0
+[29/Aug/2022 11:49:12] "POST /auth/token/ HTTP/1.1" 200 52
+[29/Aug/2022 11:49:12] "OPTIONS /auth/user/ HTTP/1.1" 200 0
+[29/Aug/2022 11:49:13] "OPTIONS /auth/profile/ HTTP/1.1" 200 0
+[29/Aug/2022 11:49:13] "GET /auth/user/ HTTP/1.1" 200 107
+[29/Aug/2022 11:49:13] "GET /auth/profile/ HTTP/1.1" 200 118
+Bad Request: /auth/token/
+[29/Aug/2022 11:50:28] "POST /auth/token/ HTTP/1.1" 400 68
+[29/Aug/2022 11:50:40] "POST /auth/token/ HTTP/1.1" 200 52
+[29/Aug/2022 11:50:41] "GET /auth/user/ HTTP/1.1" 200 107
+[29/Aug/2022 11:50:41] "GET /auth/profile/ HTTP/1.1" 200 118
+[29/Aug/2022 12:06:01] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[29/Aug/2022 12:06:01] "  /*à     Cookie: mstshash=Administr" 400 -
+[29/Aug/2022 12:44:17] code 400, message Bad request version ('À\x14À')
+[29/Aug/2022 12:44:17] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[29/Aug/2022 15:01:34] "OPTIONS /auth/users/ HTTP/1.1" 200 0
+[29/Aug/2022 15:01:34] "POST /auth/users/ HTTP/1.1" 201 114
+[29/Aug/2022 15:01:49] "OPTIONS /auth/token/ HTTP/1.1" 200 0
+[29/Aug/2022 15:01:49] "POST /auth/token/ HTTP/1.1" 200 52
+[29/Aug/2022 15:01:50] "OPTIONS /auth/user/ HTTP/1.1" 200 0
+[29/Aug/2022 15:01:50] "OPTIONS /auth/profile/ HTTP/1.1" 200 0
+[29/Aug/2022 15:01:50] "GET /auth/user/ HTTP/1.1" 200 114
+[29/Aug/2022 15:01:50] "GET /auth/profile/ HTTP/1.1" 200 87
+[29/Aug/2022 15:02:00] "OPTIONS /test/mytests/ HTTP/1.1" 200 0
+[29/Aug/2022 15:02:00] "GET /test/mytests/ HTTP/1.1" 200 2
+[29/Aug/2022 15:02:08] "GET /auth/profile/ HTTP/1.1" 200 87
+[29/Aug/2022 15:02:34] "OPTIONS /test/quiz/ HTTP/1.1" 200 0
+[29/Aug/2022 15:02:34] "POST /test/quiz/ HTTP/1.1" 201 119
+[29/Aug/2022 15:12:29] "OPTIONS /auth/token/ HTTP/1.1" 200 0
+[29/Aug/2022 15:12:29] "POST /auth/token/ HTTP/1.1" 200 52
+[29/Aug/2022 15:12:30] "OPTIONS /auth/user/ HTTP/1.1" 200 0
+[29/Aug/2022 15:12:30] "OPTIONS /auth/profile/ HTTP/1.1" 200 0
+[29/Aug/2022 15:12:30] "GET /auth/user/ HTTP/1.1" 200 114
+[29/Aug/2022 15:12:30] "GET /auth/profile/ HTTP/1.1" 200 87
+[29/Aug/2022 15:12:50] "OPTIONS /test/quiz/ HTTP/1.1" 200 0
+[29/Aug/2022 15:12:50] "POST /test/quiz/ HTTP/1.1" 201 114
+Not Found: /
+[29/Aug/2022 15:15:48] "GET / HTTP/1.1" 404 2370
+[29/Aug/2022 15:35:18] "GET /auth/user/ HTTP/1.1" 200 114
+[29/Aug/2022 15:35:18] "GET /auth/profile/ HTTP/1.1" 200 87
+[29/Aug/2022 15:35:19] "GET /auth/profile/ HTTP/1.1" 200 87
+[29/Aug/2022 15:35:19] "GET /auth/user/ HTTP/1.1" 200 114
+[29/Aug/2022 15:35:43] "POST /test/quiz/ HTTP/1.1" 201 116
+[29/Aug/2022 15:48:46] "POST /test/quiz/ HTTP/1.1" 201 118
+[29/Aug/2022 15:53:29] "GET /auth/user/ HTTP/1.1" 200 114
+[29/Aug/2022 15:53:29] "GET /auth/profile/ HTTP/1.1" 200 87
+[29/Aug/2022 15:53:30] "GET /auth/user/ HTTP/1.1" 200 114
+[29/Aug/2022 15:53:30] "GET /auth/profile/ HTTP/1.1" 200 87
+[29/Aug/2022 15:53:45] "POST /test/quiz/ HTTP/1.1" 201 125
+[29/Aug/2022 15:55:13] "GET /auth/user/ HTTP/1.1" 200 114
+[29/Aug/2022 15:55:13] "GET /auth/profile/ HTTP/1.1" 200 87
+[29/Aug/2022 15:55:14] "GET /auth/user/ HTTP/1.1" 200 114
+[29/Aug/2022 15:55:14] "GET /auth/profile/ HTTP/1.1" 200 87
+[29/Aug/2022 15:58:36] "POST /test/quiz/ HTTP/1.1" 201 116
+Invalid HTTP_HOST header: 'example.com'. You may need to add 'example.com' to ALLOWED_HOSTS.
+Bad Request: /http:/example.com/
+[29/Aug/2022 16:11:21] "GET http://example.com/ HTTP/1.1" 400 65396
+[29/Aug/2022 16:40:25] code 400, message Bad request version ('À\x14À')
+[29/Aug/2022 16:40:25] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[29/Aug/2022 16:40:26] code 400, message Bad HTTP/0.9 request type ("\x16\x03\x01\x00{\x01\x00\x00w\x03\x03yÖï©Ý½½ÏiU¦ìÕáEÌV+\x80éåm\x94\x15môk¦Òl'a\x00\x00\x1aÀ/À+À\x11À\x07À\x13À")
+[29/Aug/2022 16:40:26] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /
+[29/Aug/2022 16:40:26] "GET / HTTP/1.1" 404 2370
+[29/Aug/2022 17:06:07] "POST /test/quiz/ HTTP/1.1" 201 117
+[29/Aug/2022 17:31:00] "OPTIONS /auth/user/ HTTP/1.1" 200 0
+[29/Aug/2022 17:31:00] "OPTIONS /auth/profile/ HTTP/1.1" 200 0
+[29/Aug/2022 17:31:00] "GET /auth/user/ HTTP/1.1" 200 114
+[29/Aug/2022 17:31:00] "GET /auth/profile/ HTTP/1.1" 200 87
+[29/Aug/2022 17:31:08] "OPTIONS /test/quiz/ HTTP/1.1" 200 0
+[29/Aug/2022 17:31:08] "POST /test/quiz/ HTTP/1.1" 201 112
+[29/Aug/2022 17:41:17] "GET /auth/profile/ HTTP/1.1" 200 87
+[29/Aug/2022 17:41:17] "GET /auth/user/ HTTP/1.1" 200 114
+[29/Aug/2022 17:41:28] "POST /test/quiz/ HTTP/1.1" 201 121
+[29/Aug/2022 17:51:00] "GET /auth/user/ HTTP/1.1" 200 114
+[29/Aug/2022 17:51:00] "GET /auth/profile/ HTTP/1.1" 200 87
+[29/Aug/2022 17:57:06] "POST /test/quiz/ HTTP/1.1" 201 113
+[29/Aug/2022 17:58:37] "GET /auth/user/ HTTP/1.1" 200 114
+[29/Aug/2022 17:58:37] "GET /auth/profile/ HTTP/1.1" 200 87
+[29/Aug/2022 17:58:44] "POST /test/quiz/ HTTP/1.1" 201 116
+[29/Aug/2022 18:07:56] "GET /auth/user/ HTTP/1.1" 200 114
+[29/Aug/2022 18:07:56] "GET /auth/profile/ HTTP/1.1" 200 87
+[29/Aug/2022 18:08:04] "POST /test/quiz/ HTTP/1.1" 201 112
+[29/Aug/2022 18:09:04] "OPTIONS /auth/user/ HTTP/1.1" 200 0
+[29/Aug/2022 18:09:04] "OPTIONS /auth/profile/ HTTP/1.1" 200 0
+[29/Aug/2022 18:09:04] "GET /auth/user/ HTTP/1.1" 200 114
+[29/Aug/2022 18:09:04] "GET /auth/profile/ HTTP/1.1" 200 87
+[29/Aug/2022 18:09:14] "OPTIONS /test/quiz/ HTTP/1.1" 200 0
+[29/Aug/2022 18:09:14] "POST /test/quiz/ HTTP/1.1" 201 119
+[29/Aug/2022 18:10:24] "GET /auth/user/ HTTP/1.1" 200 114
+[29/Aug/2022 18:10:24] "GET /auth/profile/ HTTP/1.1" 200 87
+[29/Aug/2022 18:10:26] "GET /auth/user/ HTTP/1.1" 200 114
+[29/Aug/2022 18:10:26] "GET /auth/profile/ HTTP/1.1" 200 87
+[29/Aug/2022 18:10:34] "POST /test/quiz/ HTTP/1.1" 201 113
+[29/Aug/2022 18:12:13] "GET /auth/user/ HTTP/1.1" 200 114
+[29/Aug/2022 18:12:14] "GET /auth/profile/ HTTP/1.1" 200 87
+[29/Aug/2022 18:12:15] "GET /auth/profile/ HTTP/1.1" 200 87
+[29/Aug/2022 18:12:15] "GET /auth/user/ HTTP/1.1" 200 114
+[29/Aug/2022 18:12:20] "POST /test/quiz/ HTTP/1.1" 201 116
+[29/Aug/2022 18:12:34] "POST /test/quiz/ HTTP/1.1" 201 122
+----------------------------------------
+Exception occurred during processing of request from ('116.206.156.83', 11880)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('116.206.156.83', 11881)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[29/Aug/2022 18:14:58] "GET /auth/profile/ HTTP/1.1" 200 87
+[29/Aug/2022 18:14:58] "GET /auth/user/ HTTP/1.1" 200 114
+[29/Aug/2022 18:15:03] "POST /test/quiz/ HTTP/1.1" 201 120
+----------------------------------------
+Exception occurred during processing of request from ('116.206.156.83', 13176)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('116.206.156.83', 13177)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[29/Aug/2022 18:26:43] "OPTIONS /test/question/ HTTP/1.1" 200 0
+[29/Aug/2022 18:26:43] "POST /test/question/ HTTP/1.1" 201 106
+[29/Aug/2022 18:26:43] "OPTIONS /test/choice/ HTTP/1.1" 200 0
+[29/Aug/2022 18:26:44] "OPTIONS /test/choice/ HTTP/1.1" 200 0
+[29/Aug/2022 18:26:44] "OPTIONS /test/choice/ HTTP/1.1" 200 0
+[29/Aug/2022 18:26:44] "OPTIONS /test/choice/ HTTP/1.1" 200 0
+[29/Aug/2022 18:26:44] "POST /test/choice/ HTTP/1.1" 201 66
+[29/Aug/2022 18:26:44] "POST /test/choice/ HTTP/1.1" 201 67
+[29/Aug/2022 18:26:44] "POST /test/choice/ HTTP/1.1" 201 68
+[29/Aug/2022 18:26:44] "POST /test/choice/ HTTP/1.1" 201 65
+[29/Aug/2022 18:31:29] "OPTIONS /auth/users/ HTTP/1.1" 200 0
+[29/Aug/2022 18:31:29] "POST /auth/users/ HTTP/1.1" 201 108
+[29/Aug/2022 18:31:42] "OPTIONS /auth/token/ HTTP/1.1" 200 0
+[29/Aug/2022 18:31:42] "POST /auth/token/ HTTP/1.1" 200 52
+[29/Aug/2022 18:31:42] "GET /auth/user/ HTTP/1.1" 200 108
+[29/Aug/2022 18:31:42] "GET /auth/profile/ HTTP/1.1" 200 87
+[29/Aug/2022 18:32:01] "OPTIONS /test/quiz/instance/e4ada443/ HTTP/1.1" 200 0
+[29/Aug/2022 18:32:01] "GET /test/quiz/instance/e4ada443/ HTTP/1.1" 200 122
+[29/Aug/2022 18:32:01] "OPTIONS /test/response/ HTTP/1.1" 200 0
+[29/Aug/2022 18:32:01] "POST /test/response/ HTTP/1.1" 201 80
+[29/Aug/2022 18:32:01] "OPTIONS /test/question/10/ HTTP/1.1" 200 0
+[29/Aug/2022 18:32:01] "GET /test/question/10/ HTTP/1.1" 200 117
+[29/Aug/2022 18:32:01] "OPTIONS /test/choice/14/ HTTP/1.1" 200 0
+[29/Aug/2022 18:32:01] "OPTIONS /test/choice/15/ HTTP/1.1" 200 0
+[29/Aug/2022 18:32:01] "OPTIONS /test/choice/16/ HTTP/1.1" 200 0
+[29/Aug/2022 18:32:01] "OPTIONS /test/choice/17/ HTTP/1.1" 200 0
+[29/Aug/2022 18:32:01] "GET /test/choice/14/ HTTP/1.1" 200 67
+[29/Aug/2022 18:32:01] "GET /test/choice/15/ HTTP/1.1" 200 66
+[29/Aug/2022 18:32:01] "GET /test/choice/17/ HTTP/1.1" 200 65
+[29/Aug/2022 18:32:01] "GET /test/choice/16/ HTTP/1.1" 200 68
+[29/Aug/2022 18:33:11] "GET /test/quiz/instance/e4ada443/ HTTP/1.1" 200 122
+Bad Request: /test/response/
+[29/Aug/2022 18:33:11] "POST /test/response/ HTTP/1.1" 400 43
+[29/Aug/2022 18:34:14] "POST /auth/users/ HTTP/1.1" 201 113
+[29/Aug/2022 18:34:26] "POST /auth/token/ HTTP/1.1" 200 52
+[29/Aug/2022 18:34:26] "GET /auth/profile/ HTTP/1.1" 200 89
+[29/Aug/2022 18:34:26] "GET /auth/user/ HTTP/1.1" 200 113
+[29/Aug/2022 18:34:47] "GET /test/quiz/instance/e4ada443/ HTTP/1.1" 200 122
+[29/Aug/2022 18:34:47] "POST /test/response/ HTTP/1.1" 201 81
+[29/Aug/2022 18:34:47] "GET /test/question/10/ HTTP/1.1" 200 117
+[29/Aug/2022 18:34:47] "GET /test/choice/14/ HTTP/1.1" 200 67
+[29/Aug/2022 18:34:47] "GET /test/choice/16/ HTTP/1.1" 200 68
+[29/Aug/2022 18:34:47] "GET /test/choice/17/ HTTP/1.1" 200 65
+[29/Aug/2022 18:34:47] "GET /test/choice/15/ HTTP/1.1" 200 66
+[29/Aug/2022 18:35:01] "OPTIONS /test/answer/ HTTP/1.1" 200 0
+[29/Aug/2022 18:35:01] "POST /test/answer/ HTTP/1.1" 201 74
+[29/Aug/2022 19:41:48] code 400, message Bad request syntax ('MGLNDD_192.46.213.101_8000')
+[29/Aug/2022 19:41:48] "MGLNDD_192.46.213.101_8000" 400 -
+Invalid HTTP_HOST header: 'lalisalami.duckdns.org'. You may need to add 'lalisalami.duckdns.org' to ALLOWED_HOSTS.
+Bad Request: /
+[29/Aug/2022 21:26:59] "GET / HTTP/1.1" 400 65829
+[30/Aug/2022 07:31:49] code 400, message Bad HTTP/0.9 request type ('Z¥\x01')
+[30/Aug/2022 07:31:49] "Z¥     " 400 -
+Not Found: /
+[30/Aug/2022 11:57:03] "GET / HTTP/1.1" 404 2370
+----------------------------------------
+Exception occurred during processing of request from ('90.151.171.106', 10806)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Invalid HTTP_HOST header: 'api.ipify.org'. You may need to add 'api.ipify.org' to ALLOWED_HOSTS.
+Bad Request: /http:/api.ipify.org/
+[30/Aug/2022 12:41:45] "GET http://api.ipify.org/?Z77574924223Q1 HTTP/1.1" 400 66637
+[30/Aug/2022 12:41:55] code 400, message Bad request syntax ('\x05\x01\x00')
+[30/Aug/2022 12:41:55] " " 400 -
+[30/Aug/2022 14:07:11] code 400, message Bad request version ('À\x14À')
+[30/Aug/2022 14:07:11] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[30/Aug/2022 14:07:11] code 400, message Bad request version ('À\x14À')
+[30/Aug/2022 14:07:11] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /
+[30/Aug/2022 14:07:11] "GET / HTTP/1.1" 404 2370
+Invalid HTTP_HOST header: 'example.com'. You may need to add 'example.com' to ALLOWED_HOSTS.
+Bad Request: /http:/example.com/
+[30/Aug/2022 14:48:00] "GET http://example.com/ HTTP/1.1" 400 65396
+----------------------------------------
+Exception occurred during processing of request from ('162.142.125.8', 42916)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[30/Aug/2022 19:36:45] "GET / HTTP/1.1" 404 2370
+----------------------------------------
+Exception occurred during processing of request from ('162.142.125.8', 44974)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[30/Aug/2022 19:36:46] "GET / HTTP/1.1" 404 2370
+[30/Aug/2022 19:36:47] code 505, message Invalid HTTP version (2.0)
+[30/Aug/2022 19:36:47] "PRI * HTTP/2.0" 505 -
+Not Found: /
+[30/Aug/2022 19:48:18] "GET / HTTP/1.1" 404 2370
+Not Found: /HNAP1/
+[30/Aug/2022 19:48:18] "POST /HNAP1/ HTTP/1.1" 404 2407
+----------------------------------------
+Exception occurred during processing of request from ('45.140.141.76', 60304)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[30/Aug/2022 21:24:19] "GET /admin/ HTTP/1.1" 302 0
+[31/Aug/2022 01:05:16] code 400, message Bad request version ('À\x14À')
+[31/Aug/2022 01:05:16] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[31/Aug/2022 02:02:00] code 400, message Bad request syntax ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03Ç\x8b6Ç')
+[31/Aug/2022 02:02:00] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[31/Aug/2022 02:02:00] code 400, message Bad request version ('À\x14À')
+[31/Aug/2022 02:02:00] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /
+[31/Aug/2022 02:02:01] "GET / HTTP/1.1" 404 2370
+Not Found: /
+[31/Aug/2022 02:16:54] "GET / HTTP/1.1" 404 2370
+Invalid HTTP_HOST header: 'example.com'. You may need to add 'example.com' to ALLOWED_HOSTS.
+Bad Request: /http:/example.com/
+[31/Aug/2022 04:15:28] "GET http://example.com/ HTTP/1.1" 400 65396
+[31/Aug/2022 04:17:25] code 400, message Bad request version ('OÑËÜ®Ëd')
+[31/Aug/2022 04:17:25] "   TZ         .    I¨À )z» zÚf Ò~Uñi»©                ÃÐ¢|¦v½óOÑËÜ®Ëd" 400 -
+Not Found: /
+[31/Aug/2022 07:04:08] "GET / HTTP/1.1" 404 2370
+[31/Aug/2022 08:06:39] code 400, message Bad request syntax ('MGLNDD_192.46.213.101_8000')
+[31/Aug/2022 08:06:39] "MGLNDD_192.46.213.101_8000" 400 -
+[31/Aug/2022 13:31:54] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[31/Aug/2022 13:31:54] "    c                           " 400 -
+[31/Aug/2022 14:35:48] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[31/Aug/2022 14:35:48] "    c                           " 400 -
+Not Found: /c/
+[31/Aug/2022 15:09:15] "GET /c/ HTTP/1.1" 404 2394
+[31/Aug/2022 16:10:17] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[31/Aug/2022 16:10:17] "    c                           " 400 -
+----------------------------------------
+Exception occurred during processing of request from ('167.94.138.60', 49252)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[31/Aug/2022 16:23:12] "GET / HTTP/1.1" 404 2370
+----------------------------------------
+Exception occurred during processing of request from ('167.94.138.60', 48564)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[31/Aug/2022 16:23:12] "GET / HTTP/1.1" 404 2370
+[31/Aug/2022 16:23:13] code 505, message Invalid HTTP version (2.0)
+[31/Aug/2022 16:23:13] "PRI * HTTP/2.0" 505 -
+[31/Aug/2022 19:25:51] code 400, message Bad HTTP/0.9 request type ("\x16\x03\x01\x00u\x01\x00\x00q\x03\x03'nfúqÔä\x87¢¹A§ò\x17n<\x9d7:ê")
+[31/Aug/2022 19:25:51] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /
+[31/Aug/2022 21:19:58] "GET / HTTP/1.1" 404 2370
+[31/Aug/2022 22:46:19] code 400, message Bad request version ('À\x14À')
+[31/Aug/2022 22:46:19] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[31/Aug/2022 22:46:19] code 400, message Bad request syntax ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03ñ¶u«')
+[31/Aug/2022 22:46:19] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /
+[31/Aug/2022 22:46:19] "GET / HTTP/1.1" 404 2370
+[01/Sep/2022 05:20:02] code 400, message Bad request version ('À\x14À')
+[01/Sep/2022 05:20:02] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /
+[01/Sep/2022 06:39:22] "GET / HTTP/1.1" 404 2370
+Not Found: /Login/index.jsp
+[01/Sep/2022 08:14:58] "GET /Login/index.jsp HTTP/1.1" 404 2433
+[01/Sep/2022 08:15:00] code 400, message Bad request syntax ('\x16\x03\x01\x00¬\x01\x00\x00¨\x03\x03\x0fPþÿéLÕÜ£Ó\x82å;\x84\x87k$Á\x15Ë$\x02¸êÄ\\aV\x8d\x88\x1a]\x00\x008À,À')
+[01/Sep/2022 08:15:00] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Sep/2022 09:08:06] code 400, message Bad HTTP/0.9 request type ('Z¥\x01')
+[01/Sep/2022 09:08:06] "Z¥     " 400 -
+Not Found: /
+[01/Sep/2022 10:59:56] "GET / HTTP/1.1" 404 2370
+Not Found: /
+[01/Sep/2022 11:36:14] "GET / HTTP/1.1" 404 2370
+Not Found: /
+[01/Sep/2022 11:43:01] "GET / HTTP/1.1" 404 2370
+[01/Sep/2022 13:50:42] code 400, message Bad request syntax ('MGLNDD_192.46.213.101_8000')
+[01/Sep/2022 13:50:42] "MGLNDD_192.46.213.101_8000" 400 -
+[01/Sep/2022 14:53:03] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[01/Sep/2022 14:53:03] "    c                           " 400 -
+Not Found: /
+[01/Sep/2022 16:17:10] "GET / HTTP/1.1" 404 2370
+Not Found: /favicon.ico
+[01/Sep/2022 16:17:10] "GET /favicon.ico HTTP/1.1" 404 2421
+Invalid HTTP_HOST header: '192-46-213-101.ip.linodeusercontent.com:8000'. You may need to add '192-46-213-101.ip.linodeusercontent.com' to ALLOWED_HOSTS.
+Bad Request: /
+[01/Sep/2022 16:17:20] "GET / HTTP/1.0" 400 65610
+[01/Sep/2022 17:06:33] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x03\x01¨À\x10\x00Ô\x10')
+[01/Sep/2022 17:06:33] "   TZ          0I    ¨À Ô   tsXrcsXYs9                      t9bYYtrsbr      " 400 -
+[01/Sep/2022 17:44:40] code 400, message Bad request syntax ('\x04\x01\x00\x19h/:!\x00')
+[01/Sep/2022 17:44:40] " h/:! " 400 -
+[01/Sep/2022 17:44:40,605] - Broken pipe from ('89.248.165.52', 37618)
+
+[01/Sep/2022 17:45:17] code 400, message Bad request syntax ('\x05\x01\x00')
+[01/Sep/2022 17:45:17] " " 400 -
+[01/Sep/2022 17:45:17,828] - Broken pipe from ('89.248.165.52', 48658)
+
+[01/Sep/2022 17:46:25] code 400, message Bad request syntax ('\x04\x01\x00\x19h/J!\x00')
+[01/Sep/2022 17:46:25] " h/J! " 400 -
+[01/Sep/2022 17:46:25,117] - Broken pipe from ('89.248.165.52', 52688)
+
+[01/Sep/2022 17:47:26] code 400, message Bad request syntax ('\x05\x01\x00')
+[01/Sep/2022 17:47:26] " " 400 -
+[01/Sep/2022 17:47:26,206] - Broken pipe from ('89.248.165.52', 37782)
+
+Invalid HTTP_HOST header: 'hotmail-com.olc.protection.outlook.com:25'. You may need to add 'hotmail-com.olc.protection.outlook.com' to ALLOWED_HOSTS.
+Bad Request: /hotmail-com.olc.protection.outlook.com:25
+[01/Sep/2022 17:47:26] "CONNECT hotmail-com.olc.protection.outlook.com:25 HTTP/1.1" 400 65804
+[01/Sep/2022 18:09:38] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[01/Sep/2022 18:09:38] "    c                           " 400 -
+[01/Sep/2022 18:41:17] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03ªÙ\x17vçµb0\x91×ç!±4^gr\x98·ï0k\x8a\x97¿u\x16OÎÒ\x8f\x12\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[01/Sep/2022 18:41:17] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Sep/2022 18:41:17] code 400, message Bad request version ('\x9b÷')
+[01/Sep/2022 18:41:17] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /
+[01/Sep/2022 18:41:17] "GET / HTTP/1.1" 404 2370
+[01/Sep/2022 19:01:47] code 400, message Bad HTTP/0.9 request type ('\x04\x01\x00PUÎ')
+[01/Sep/2022 19:01:47] " PUÎ s " 400 -
+[01/Sep/2022 19:01:47,103] - Broken pipe from ('89.248.165.52', 38992)
+
+[01/Sep/2022 19:02:47] code 400, message Bad request syntax ('\x05\x01\x00')
+[01/Sep/2022 19:02:47] " " 400 -
+[01/Sep/2022 19:02:47,300] - Broken pipe from ('89.248.165.52', 35552)
+
+Invalid HTTP_HOST header: '85.206.160.115:80'. You may need to add '85.206.160.115' to ALLOWED_HOSTS.
+Bad Request: /85.206.160.115:80
+[01/Sep/2022 19:02:47] "CONNECT 85.206.160.115:80 HTTP/1.1" 400 65180
+Not Found: /
+[01/Sep/2022 22:07:58] "GET / HTTP/1.1" 404 2370
+Not Found: /
+[02/Sep/2022 00:26:10] "GET / HTTP/1.0" 404 2370
+Not Found: /
+[02/Sep/2022 03:08:08] "GET / HTTP/1.1" 404 2370
+Invalid HTTP_HOST header: '192-46-213-101.ip.linodeusercontent.com:8000'. You may need to add '192-46-213-101.ip.linodeusercontent.com' to ALLOWED_HOSTS.
+Bad Request: /
+[02/Sep/2022 04:53:28] "GET / HTTP/1.1" 400 65218
+[02/Sep/2022 06:39:17] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[02/Sep/2022 06:39:17] "    c                           " 400 -
+Not Found: /
+[02/Sep/2022 10:51:59] "GET / HTTP/1.1" 404 2370
+[02/Sep/2022 10:54:24] code 400, message Bad request syntax ('\x16\x03\x01\x00u\x01\x00\x00q\x03\x03åÈ\x11Ö¡Zâ4')
+[02/Sep/2022 10:54:24] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Invalid HTTP_HOST header: 'lalisalami.duckdns.org'. You may need to add 'lalisalami.duckdns.org' to ALLOWED_HOSTS.
+Bad Request: /
+[02/Sep/2022 11:46:48] "GET / HTTP/1.1" 400 65828
+[02/Sep/2022 12:23:13] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[02/Sep/2022 12:23:13] "    c                           " 400 -
+Not Found: /
+[02/Sep/2022 12:24:17] "GET / HTTP/1.1" 404 2370
+[02/Sep/2022 12:24:21] code 505, message Invalid HTTP version (2.0)
+[02/Sep/2022 12:24:21] "PRI * HTTP/2.0" 505 -
+[02/Sep/2022 12:49:21] "OPTIONS /auth/user/ HTTP/1.1" 200 0
+[02/Sep/2022 12:49:21] "OPTIONS /auth/profile/ HTTP/1.1" 200 0
+[02/Sep/2022 12:49:26] "GET /auth/user/ HTTP/1.1" 200 114
+[02/Sep/2022 12:49:26] "GET /auth/profile/ HTTP/1.1" 200 87
+[02/Sep/2022 12:54:41] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x03\x01¨À\x10\x00Ô\x10')
+[02/Sep/2022 12:54:41] "   TZ          0I    ¨À Ô   tsXrcsXYs9                      bstcs9b9tt      " 400 -
+[02/Sep/2022 14:59:06] code 400, message Bad request version ('À\x14À')
+[02/Sep/2022 14:59:06] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[02/Sep/2022 14:59:07] code 400, message Bad request version ('À\x14À')
+[02/Sep/2022 14:59:07] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /
+[02/Sep/2022 14:59:07] "GET / HTTP/1.1" 404 2370
+[02/Sep/2022 15:11:02] "OPTIONS /auth/token/ HTTP/1.1" 200 0
+Bad Request: /auth/token/
+[02/Sep/2022 15:11:02] "POST /auth/token/ HTTP/1.1" 400 68
+[02/Sep/2022 15:11:14] "POST /auth/token/ HTTP/1.1" 200 52
+[02/Sep/2022 15:11:15] "OPTIONS /auth/user/ HTTP/1.1" 200 0
+[02/Sep/2022 15:11:15] "OPTIONS /auth/profile/ HTTP/1.1" 200 0
+[02/Sep/2022 15:11:15] "GET /auth/user/ HTTP/1.1" 200 107
+[02/Sep/2022 15:11:15] "GET /auth/profile/ HTTP/1.1" 200 118
+[02/Sep/2022 15:11:15] "GET /media/1659534013706.jpg HTTP/1.1" 200 284958
+[02/Sep/2022 15:11:19] "GET /auth/profile/ HTTP/1.1" 200 118
+----------------------------------------
+Exception occurred during processing of request from ('116.206.159.139', 45618)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('116.206.159.139', 45651)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('116.206.159.139', 45647)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[02/Sep/2022 16:25:24] "GET / HTTP/1.1" 404 2369
+[02/Sep/2022 17:33:13] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[02/Sep/2022 17:33:13] "    c                           " 400 -
+----------------------------------------
+Exception occurred during processing of request from ('167.94.138.120', 49858)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[02/Sep/2022 17:54:08] "GET / HTTP/1.1" 404 2370
+----------------------------------------
+Exception occurred during processing of request from ('167.94.138.120', 49420)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[02/Sep/2022 17:54:08] "GET / HTTP/1.1" 404 2370
+[02/Sep/2022 17:54:09] code 505, message Invalid HTTP version (2.0)
+[02/Sep/2022 17:54:09] "PRI * HTTP/2.0" 505 -
+[02/Sep/2022 22:13:42] code 400, message Bad request version ('À\x14À')
+[02/Sep/2022 22:13:42] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[02/Sep/2022 22:39:12] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[02/Sep/2022 22:39:12] "    c                           " 400 -
+Not Found: /
+[03/Sep/2022 00:39:21] "GET / HTTP/1.1" 404 2370
+[03/Sep/2022 01:55:14] code 400, message Bad request syntax ('\x01\x01æ')
+[03/Sep/2022 01:55:14] "æ" 400 -
+Not Found: /
+[03/Sep/2022 02:01:29] "GET / HTTP/1.1" 404 2364
+Not Found: /c/
+[03/Sep/2022 02:47:14] "GET /c/ HTTP/1.1" 404 2394
+Not Found: /
+[03/Sep/2022 04:16:05] "GET / HTTP/1.1" 404 2370
+[03/Sep/2022 04:43:48] "OPTIONS /auth/token/ HTTP/1.1" 200 0
+[03/Sep/2022 04:43:48] "POST /auth/token/ HTTP/1.1" 200 52
+[03/Sep/2022 04:43:48] "OPTIONS /auth/user/ HTTP/1.1" 200 0
+[03/Sep/2022 04:43:48] "OPTIONS /auth/profile/ HTTP/1.1" 200 0
+[03/Sep/2022 04:43:48] "GET /auth/user/ HTTP/1.1" 200 107
+[03/Sep/2022 04:43:48] "GET /auth/profile/ HTTP/1.1" 200 118
+[03/Sep/2022 04:43:49] "GET /media/1659534013706.jpg HTTP/1.1" 304 0
+[03/Sep/2022 04:43:51] "OPTIONS /test/logs/ HTTP/1.1" 200 0
+[03/Sep/2022 04:43:51] "GET /test/logs/ HTTP/1.1" 200 1117
+/root/Quick_Grader/Quick-Grader-Backend-master/quickgrader/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 29, 2022 - 11:05:36
+Django version 3.1.3, using settings 'quickgrader.settings'
+Starting development server at http://192.46.213.101:8000/
+Quit the server with CONTROL-C.
+{'type': 2, 'problem': 'What is this', 'test': {'code': 'e4ada443'}, 'ans': '', 'maximum_score': 5}
+[nltk_data] Downloading package punkt to /root/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package stopwords to /root/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+Watching for file changes with StatReloader
+2022-09-03 05:07:19.587444: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-09-03 05:07:19.588477: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-09-03 05:07:22.452611: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-09-03 05:07:22.452636: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2022-09-03 05:07:22.452662: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (localhost): /proc/driver/nvidia/version does not exist
+2022-09-03 05:07:22.452831: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+[03/Sep/2022 05:36:01] code 400, message Bad request syntax ('MGLNDD_192.46.213.101_8000')
+[03/Sep/2022 05:36:01] "MGLNDD_192.46.213.101_8000" 400 -
+----------------------------------------
+Exception occurred during processing of request from ('167.248.133.117', 43192)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[03/Sep/2022 07:51:15] "GET / HTTP/1.1" 404 2370
+----------------------------------------
+Exception occurred during processing of request from ('167.248.133.117', 50458)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[03/Sep/2022 07:51:15] "GET / HTTP/1.1" 404 2370
+[03/Sep/2022 07:51:16] code 505, message Invalid HTTP version (2.0)
+[03/Sep/2022 07:51:16] "PRI * HTTP/2.0" 505 -
+Invalid HTTP_HOST header: '192-46-213-101.ip.linodeusercontent.com:8000'. You may need to add '192-46-213-101.ip.linodeusercontent.com' to ALLOWED_HOSTS.
+Bad Request: /
+[03/Sep/2022 08:28:46] "GET / HTTP/1.0" 400 65328
+[03/Sep/2022 08:28:53] code 400, message Bad HTTP/0.9 request type ('l\x00')
+[03/Sep/2022 08:28:53] "l          " 400 -
+[03/Sep/2022 08:28:58] code 400, message Bad request version ('\x00/\x00')
+[03/Sep/2022 08:28:58] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Invalid HTTP_HOST header: '192-46-213-101.ip.linodeusercontent.com:8000'. You may need to add '192-46-213-101.ip.linodeusercontent.com' to ALLOWED_HOSTS.
+Bad Request: /.git/HEAD
+[03/Sep/2022 08:28:58] "GET /.git/HEAD HTTP/1.1" 400 65875
+[03/Sep/2022 08:28:59] code 400, message Bad request version ("âj@\x00\x9c\x13\x02\x13\x03\x13\x01\x003\x009\x005\x00/À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À\xadÀ£À\x9fÀ]ÀaÀWÀSÀ+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀRÀ$À(\x00k\x00jÀsÀw\x00Ä\x00ÃÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½À")
+[03/Sep/2022 08:28:59] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[03/Sep/2022 08:28:59] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03À&\x03Çì')
+[03/Sep/2022 08:28:59] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Invalid HTTP_HOST header: '192-46-213-101.ip.linodeusercontent.com:8000'. You may need to add '192-46-213-101.ip.linodeusercontent.com' to ALLOWED_HOSTS.
+Bad Request: /server-status
+[03/Sep/2022 08:29:01] "GET /server-status HTTP/1.1" 400 65919
+Invalid HTTP_HOST header: '192-46-213-101.ip.linodeusercontent.com:8000'. You may need to add '192-46-213-101.ip.linodeusercontent.com' to ALLOWED_HOSTS.
+Bad Request: /Portal0000.htm
+Invalid HTTP_HOST header: '192-46-213-101.ip.linodeusercontent.com:8000'. You may need to add '192-46-213-101.ip.linodeusercontent.com' to ALLOWED_HOSTS.
+Bad Request: /CSS/Miniweb.css
+[03/Sep/2022 08:29:02] "GET /CSS/Miniweb.css HTTP/1.1" 400 65941
+Invalid HTTP_HOST header: '192-46-213-101.ip.linodeusercontent.com:8000'. You may need to add '192-46-213-101.ip.linodeusercontent.com' to ALLOWED_HOSTS.
+Bad Request: /CheL
+[03/Sep/2022 08:29:02] "GET /Portal0000.htm HTTP/1.1" 400 65930
+Invalid HTTP_HOST header: '192-46-213-101.ip.linodeusercontent.com:8000'. You may need to add '192-46-213-101.ip.linodeusercontent.com' to ALLOWED_HOSTS.
+Bad Request: /
+[03/Sep/2022 08:29:02] code 400, message Bad request version ('\x99L')
+[03/Sep/2022 08:29:02] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[03/Sep/2022 08:29:02] "GET /CheL HTTP/1.1" 400 65820
+[03/Sep/2022 08:29:02] "GET / HTTP/1.1" 400 65776
+Invalid HTTP_HOST header: '192-46-213-101.ip.linodeusercontent.com:8000'. You may need to add '192-46-213-101.ip.linodeusercontent.com' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[03/Sep/2022 08:29:03] "GET /favicon.ico HTTP/1.1" 400 65897
+Invalid HTTP_HOST header: '192-46-213-101.ip.linodeusercontent.com:8000'. You may need to add '192-46-213-101.ip.linodeusercontent.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: '192-46-213-101.ip.linodeusercontent.com:8000'. You may need to add '192-46-213-101.ip.linodeusercontent.com' to ALLOWED_HOSTS.
+Bad Request: /__Additional
+Bad Request: /sdk
+[03/Sep/2022 08:29:04] "GET /__Additional HTTP/1.1" 400 65908
+[03/Sep/2022 08:29:04] "POST /sdk HTTP/1.1" 400 65819
+Invalid HTTP_HOST header: 'www.google.com'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /http:/www.google.com
+[03/Sep/2022 08:29:04] "GET http://www.google.com HTTP/1.0" 400 65273
+[03/Sep/2022 08:29:05] code 400, message Bad request version ("ôí\x19\x00\x9c\x13\x02\x13\x03\x13\x01\x003\x009\x005\x00/À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À\xadÀ£À\x9fÀ]ÀaÀWÀSÀ+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀRÀ$À(\x00k\x00jÀsÀw\x00Ä\x00ÃÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½À")
+[03/Sep/2022 08:29:05] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Invalid HTTP_HOST header: '192-46-213-101.ip.linodeusercontent.com:8000'. You may need to add '192-46-213-101.ip.linodeusercontent.com' to ALLOWED_HOSTS.
+Bad Request: /Portal/Portal.mwsl
+[03/Sep/2022 08:29:06] "GET /Portal/Portal.mwsl HTTP/1.1" 400 65974
+Invalid HTTP_HOST header: 'www.google.com'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Bad Request: /http:/www.google.com
+[03/Sep/2022 08:29:06] "HEAD http://www.google.com HTTP/1.0" 400 65280
+Invalid HTTP_HOST header: '192-46-213-101.ip.linodeusercontent.com:8000'. You may need to add '192-46-213-101.ip.linodeusercontent.com' to ALLOWED_HOSTS.
+Bad Request: /HNAP1
+[03/Sep/2022 08:29:06] "GET /HNAP1 HTTP/1.1" 400 65831
+Invalid HTTP_HOST header: 'www'. You may need to add 'www' to ALLOWED_HOSTS.
+Bad Request: /
+[03/Sep/2022 08:29:07] code 400, message Bad request version ("Ã\x16\x04_\x8f½\x026K\x05\x13£\x15?cÇºÕø\x16½¢h&³\x00\x9c\x13\x02\x13\x03\x13\x01\x003\x009\x005\x00/À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À\xadÀ£À\x9fÀ]ÀaÀWÀSÀ+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀRÀ$À(\x00k\x00jÀsÀw\x00Ä\x00ÃÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½À")
+[03/Sep/2022 08:29:07] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[03/Sep/2022 08:29:08] "GET / HTTP/1.1" 400 65365
+[03/Sep/2022 08:29:30] code 400, message Bad request syntax ('\x0e\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbbb0100000001')
+[03/Sep/2022 08:29:30] "               bbbb0100000001" 400 -
+[03/Sep/2022 11:22:05] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00u\x01\x00\x00q\x03\x03\x94Ø¼Y\x9c_±\x88\x17Ò\x8fçÚlþÙá³ÀþCaùët\x94äÉsz>¤\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[03/Sep/2022 11:22:05] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[03/Sep/2022 11:24:11] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03í\\ûoKÅ\x11òvK²Þ\x80[Aï[é¤ñ\x8f-&\x1b6aý\x94±\x06\x82¶\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[03/Sep/2022 11:24:11] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[03/Sep/2022 11:24:12] code 400, message Bad request version ('À\x14À')
+[03/Sep/2022 11:24:12] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /
+[03/Sep/2022 11:24:12] "GET / HTTP/1.1" 404 2370
+Invalid HTTP_HOST header: '-c'. You may need to add '-c' to ALLOWED_HOSTS.
+Bad Request: //cgi-bin/php
+[03/Sep/2022 14:15:37] "POST //%63%67%69%2D%62%69%6E/%70%68%70?%2D%64+%61%6C%6C%6F%77%5F%75%72%6C%5F%69%6E%63%6C%75%64%65%3D%6F%6E+%2D%64+%73%61%66%65%5F%6D%6F%64%65%3D%6F%66%66+%2D%64+%73%75%68%6F%73%69%6E%2E%73%69%6D%75%6C%61%74%69%6F%6E%3D%6F%6E+%2D%64+%64%69%73%61%62%6C%65%5F%66%75%6E%63%74%69%6F%6E%73%3D%22%22+%2D%64+%6F%70%65%6E%5F%62%61%73%65%64%69%72%3D%6E%6F%6E%65+%2D%64+%61%75%74%6F%5F%70%72%65%70%65%6E%64%5F%66%69%6C%65%3D%70%68%70%3A%2F%2F%69%6E%70%75%74+%2D%64+%63%67%69%2E%66%6F%72%63%65%5F%72%65%64%69%72%65%63%74%3D%30+%2D%64+%63%67%69%2E%72%65%64%69%72%65%63%74%5F%73%74%61%74%75%73%5F%65%6E%76%3D%30+%2D%64+%61%75%74%6F%5F%70%72%65%70%65%6E%64%5F%66%69%6C%65%3D%70%68%70%3A%2F%2F%69%6E%70%75%74+%2D%6E HTTP/1.1" 400 70604
+Not Found: /
+[03/Sep/2022 15:51:16] "GET / HTTP/1.1" 404 2370
+Not Found: /
+[03/Sep/2022 17:39:21] "GET / HTTP/1.1" 404 2370
+Not Found: /
+[03/Sep/2022 18:23:02] "GET / HTTP/1.1" 404 2370
+[03/Sep/2022 19:07:54] code 400, message Bad request version ('À\x14À')
+[03/Sep/2022 19:07:54] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Invalid HTTP_HOST header: 'fuwu.sogou.com'. You may need to add 'fuwu.sogou.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'fuwu.sogou.com'. You may need to add 'fuwu.sogou.com' to ALLOWED_HOSTS.
+Bad Request: /http:/fuwu.sogou.com/404/index.html
+Bad Request: /http:/fuwu.sogou.com/404/index.html
+[03/Sep/2022 19:07:55] "GET http://fuwu.sogou.com/404/index.html HTTP/1.1" 400 66081
+[03/Sep/2022 19:07:55] "GET http://fuwu.sogou.com/404/index.html HTTP/1.1" 400 66081
+[03/Sep/2022 19:08:01] code 400, message Bad request syntax ('\x05\x01\x00')
+[03/Sep/2022 19:08:01] " " 400 -
+[03/Sep/2022 19:08:01,979] - Broken pipe from ('222.186.19.235', 53206)
+
+[03/Sep/2022 21:43:52] code 400, message Bad HTTP/0.9 request type ('Z¥\x01')
+[03/Sep/2022 21:43:52] "Z¥     " 400 -
+----------------------------------------
+Exception occurred during processing of request from ('162.142.125.210', 50250)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[04/Sep/2022 01:01:35] "GET / HTTP/1.1" 404 2370
+----------------------------------------
+Exception occurred during processing of request from ('162.142.125.210', 50674)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[04/Sep/2022 01:01:35] "GET / HTTP/1.1" 404 2370
+[04/Sep/2022 01:01:36] code 505, message Invalid HTTP version (2.0)
+[04/Sep/2022 01:01:36] "PRI * HTTP/2.0" 505 -
+[04/Sep/2022 05:04:26] code 400, message Bad request version ('À\x14À')
+[04/Sep/2022 05:04:26] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /
+[04/Sep/2022 05:04:40] "GET / HTTP/1.1" 404 2370
+Not Found: /favicon.ico
+[04/Sep/2022 05:05:01] "GET /favicon.ico HTTP/1.1" 404 2421
+Not Found: /robots.txt
+[04/Sep/2022 05:05:03] "GET /robots.txt HTTP/1.1" 404 2418
+Not Found: /sitemap.xml
+[04/Sep/2022 05:05:04] "GET /sitemap.xml HTTP/1.1" 404 2421
+Not Found: /
+[04/Sep/2022 05:41:08] "GET / HTTP/1.1" 404 2370
+Not Found: /
+[04/Sep/2022 11:13:47] "GET / HTTP/1.1" 404 2370
+[04/Sep/2022 12:22:03] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&à\x00\x00\x00\x00\x00Cookie:')
+[04/Sep/2022 12:22:03] "  +&à     Cookie: mstshash=hello" 400 -
+[04/Sep/2022 15:36:27] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[04/Sep/2022 15:36:27] "  /*à     Cookie: mstshash=Administr" 400 -
+[04/Sep/2022 21:06:16] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[04/Sep/2022 21:06:16] "    c                           " 400 -
+[04/Sep/2022 21:25:44] code 400, message Bad HTTP/0.9 request type ('Z¥\x01')
+[04/Sep/2022 21:25:44] "Z¥     " 400 -
+[04/Sep/2022 21:25:44,679] - Broken pipe from ('45.61.185.76', 49618)
+
+[04/Sep/2022 22:49:53] "GET /admin/ HTTP/1.1" 302 0
+[04/Sep/2022 23:32:41] code 400, message Bad request version ('À\x14À')
+[04/Sep/2022 23:32:41] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[04/Sep/2022 23:32:41] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x9c1\xadXw\x03g9AÒ?´\x14q§ø>+ÒÙì}}rw\x8f¦>\x07cÀ\x97\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[04/Sep/2022 23:32:41] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /
+[04/Sep/2022 23:32:42] "GET / HTTP/1.1" 404 2370
+Not Found: /
+[05/Sep/2022 00:15:39] "GET / HTTP/1.1" 404 2370
+Not Found: /
+[05/Sep/2022 01:54:30] "GET / HTTP/1.1" 404 2370
+[05/Sep/2022 02:20:52] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[05/Sep/2022 02:20:52] "    c                           " 400 -
+[05/Sep/2022 04:13:32] code 400, message Bad request version ('À\x14À')
+[05/Sep/2022 04:13:32] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[05/Sep/2022 04:13:33] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03HòG*Ð\x15D\x9bF\x90êãõ\x9a\x13Q\x8bîñ\x19!²IÓ±\x8buV.Ø\x87¿\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[05/Sep/2022 04:13:33] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /
+[05/Sep/2022 04:13:33] "GET / HTTP/1.1" 404 2370
+Not Found: /
+[05/Sep/2022 08:49:30] "GET / HTTP/1.1" 404 2370
+Invalid HTTP_HOST header: '192-46-213-101.ip.linodeusercontent.com:8000'. You may need to add '192-46-213-101.ip.linodeusercontent.com' to ALLOWED_HOSTS.
+Bad Request: /
+[05/Sep/2022 08:57:37] "GET / HTTP/1.0" 400 65329
+Invalid HTTP_HOST header: 'example.com'. You may need to add 'example.com' to ALLOWED_HOSTS.
+Bad Request: /http:/example.com/
+[05/Sep/2022 09:34:29] "GET http://example.com/ HTTP/1.1" 400 65507
+[05/Sep/2022 11:47:15] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[05/Sep/2022 11:47:15] "  /*à     Cookie: mstshash=Administr" 400 -
+----------------------------------------
+Exception occurred during processing of request from ('162.142.125.8', 37964)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[05/Sep/2022 16:27:50] "GET / HTTP/1.1" 404 2370
+----------------------------------------
+Exception occurred during processing of request from ('162.142.125.8', 59000)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[05/Sep/2022 16:27:50] "GET / HTTP/1.1" 404 2370
+[05/Sep/2022 16:27:51] code 505, message Invalid HTTP version (2.0)
+[05/Sep/2022 16:27:51] "PRI * HTTP/2.0" 505 -
+[05/Sep/2022 18:53:17] code 400, message Bad request syntax ('\x01\x01æ')
+[05/Sep/2022 18:53:17] "æ" 400 -
+Not Found: /
+[05/Sep/2022 19:32:50] "GET / HTTP/1.1" 404 2370
+----------------------------------------
+Exception occurred during processing of request from ('167.94.145.57', 47668)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[05/Sep/2022 23:19:00] "GET / HTTP/1.1" 404 2370
+----------------------------------------
+Exception occurred during processing of request from ('167.94.145.57', 56092)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[05/Sep/2022 23:19:01] "GET / HTTP/1.1" 404 2370
+[05/Sep/2022 23:19:01] code 505, message Invalid HTTP version (2.0)
+[05/Sep/2022 23:19:01] "PRI * HTTP/2.0" 505 -
+Invalid HTTP_HOST header: 'example.com'. You may need to add 'example.com' to ALLOWED_HOSTS.
+Bad Request: /http:/example.com/
+[06/Sep/2022 01:15:57] "GET http://example.com/ HTTP/1.1" 400 65507
+----------------------------------------
+Exception occurred during processing of request from ('167.94.138.119', 42764)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[06/Sep/2022 02:49:00] "GET / HTTP/1.1" 404 2370
+----------------------------------------
+Exception occurred during processing of request from ('167.94.138.119', 59798)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[06/Sep/2022 02:49:01] "GET / HTTP/1.1" 404 2370
+[06/Sep/2022 02:49:02] code 505, message Invalid HTTP version (2.0)
+[06/Sep/2022 02:49:02] "PRI * HTTP/2.0" 505 -
+Not Found: /
+[06/Sep/2022 06:15:13] "GET / HTTP/1.1" 404 2370
+[06/Sep/2022 06:38:21] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03üö@\x8f\x0e\x88-¸Ê\xadMµ#í¯\x00"¿uÃí\x80Ülò\x99\x96ç°õ\x8b~\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[06/Sep/2022 06:38:21] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[06/Sep/2022 06:38:22] code 400, message Bad request version ('À\x14À')
+[06/Sep/2022 06:38:22] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /
+[06/Sep/2022 06:38:23] "GET / HTTP/1.1" 404 2370
+Not Found: /
+[06/Sep/2022 12:24:54] "GET / HTTP/1.1" 404 2364
+[06/Sep/2022 17:36:18] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[06/Sep/2022 17:36:18] "  /*à     Cookie: mstshash=Administr" 400 -
+[06/Sep/2022 22:01:43] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00\x8c\x01\x00\x00\x88\x03\x03ÂÜw')
+[06/Sep/2022 22:01:43] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+----------------------------------------
+Exception occurred during processing of request from ('167.248.133.118', 54218)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[07/Sep/2022 01:50:26] "GET / HTTP/1.1" 404 2370
+----------------------------------------
+Exception occurred during processing of request from ('167.248.133.118', 47848)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[07/Sep/2022 01:50:26] "GET / HTTP/1.1" 404 2370
+[07/Sep/2022 01:50:27] code 505, message Invalid HTTP version (2.0)
+[07/Sep/2022 01:50:27] "PRI * HTTP/2.0" 505 -
+[07/Sep/2022 02:56:48] code 400, message Bad request version ('À\x14À')
+[07/Sep/2022 02:56:48] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[07/Sep/2022 02:56:48] code 400, message Bad request version ('À\x14À')
+[07/Sep/2022 02:56:48] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /
+[07/Sep/2022 02:56:48] "GET / HTTP/1.1" 404 2370
+[07/Sep/2022 03:35:31] code 400, message Bad HTTP/0.9 request type ('Z¥\x01')
+[07/Sep/2022 03:35:31] "Z¥     " 400 -
+[07/Sep/2022 03:35:31,654] - Broken pipe from ('198.98.59.132', 51584)
+
+[07/Sep/2022 04:30:35] code 400, message Bad request syntax ('MGLNDD_192.46.213.101_8000')
+[07/Sep/2022 04:30:35] "MGLNDD_192.46.213.101_8000" 400 -
+Not Found: /
+[07/Sep/2022 04:34:48] "GET / HTTP/1.1" 404 2370
+[07/Sep/2022 05:38:06] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[07/Sep/2022 05:38:06] "    c                           " 400 -
+[07/Sep/2022 05:38:09] code 400, message Bad request syntax ('\xa0\x00\x00`\x00\x00\x00\x00admin\x00\x00\x00admin\x00\x00\x00\x04\x01\x00\x00\x00\x00¡ª')
+[07/Sep/2022 05:38:09] "   `    admin   admin       ¡ª" 400 -
+Not Found: /
+[07/Sep/2022 11:09:25] "GET / HTTP/1.1" 404 2370
+Not Found: /
+[07/Sep/2022 12:21:16] "GET / HTTP/1.1" 404 2370
+[07/Sep/2022 14:05:15] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[07/Sep/2022 14:05:15] "  /*à     Cookie: mstshash=Administr" 400 -
+[07/Sep/2022 15:32:04] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[07/Sep/2022 15:32:04] "    c                           " 400 -
+Not Found: /c/
+[07/Sep/2022 15:54:48] "GET /c/ HTTP/1.1" 404 2394
+[07/Sep/2022 15:58:46] code 400, message Bad request version ('OÑËÜ®Ëd')
+[07/Sep/2022 15:58:46] "   TZ         .    I¨À )z» zÚf Ò~Uñi»©                ÃÐ¢|¦v½óOÑËÜ®Ëd" 400 -
+[07/Sep/2022 17:28:34] code 400, message Bad request version ('OÑËÜ®Ëd')
+[07/Sep/2022 17:28:34] "   TZ         .    I¨À )z» zÚf Ò~Uñi»©                ÃÐ¢|¦v½óOÑËÜ®Ëd" 400 -
+Invalid HTTP_HOST header: 'fuwu.sogou.com'. You may need to add 'fuwu.sogou.com' to ALLOWED_HOSTS.
+Bad Request: /http:/fuwu.sogou.com/404/index.html
+Invalid HTTP_HOST header: 'fuwu.sogou.com'. You may need to add 'fuwu.sogou.com' to ALLOWED_HOSTS.
+[07/Sep/2022 18:54:18] "GET http://fuwu.sogou.com/404/index.html HTTP/1.1" 400 66419
+[07/Sep/2022 18:54:18] code 400, message Bad request version ('À\x14À')
+[07/Sep/2022 18:54:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Bad Request: /http:/fuwu.sogou.com/404/index.html
+[07/Sep/2022 18:54:19] "GET http://fuwu.sogou.com/404/index.html HTTP/1.1" 400 66119
+[07/Sep/2022 18:54:25] code 400, message Bad request syntax ('\x05\x01\x00')
+[07/Sep/2022 18:54:25] " " 400 -
+[07/Sep/2022 18:54:25,939] - Broken pipe from ('222.186.19.235', 54886)
+
+[07/Sep/2022 21:02:06] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[07/Sep/2022 21:02:06] "    c                           " 400 -
+[07/Sep/2022 22:57:53] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[07/Sep/2022 22:57:53] "    c                           " 400 -
+----------------------------------------
+Exception occurred during processing of request from ('45.227.254.26', 46467)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[07/Sep/2022 23:26:38] code 400, message Bad HTTP/0.9 request type ("\x03\x00\x00,'à\x00\x00\x00\x00\x00Cookie:")
+[07/Sep/2022 23:26:38] "  ,'à     Cookie: mstshash=Domain" 400 -
+[07/Sep/2022 23:26:38] code 400, message Bad HTTP/0.9 request type ("\x03\x00\x00,'à\x00\x00\x00\x00\x00Cookie:")
+[07/Sep/2022 23:26:38] "  ,'à     Cookie: mstshash=Domain" 400 -
+Not Found: /
+[08/Sep/2022 04:10:44] "GET / HTTP/1.1" 404 2370
+[08/Sep/2022 04:30:49] code 400, message Bad request version ('À\x14À')
+[08/Sep/2022 04:30:49] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[08/Sep/2022 05:07:57] code 400, message Bad request version ('À\x14À')
+[08/Sep/2022 05:07:57] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[08/Sep/2022 07:25:58] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[08/Sep/2022 07:25:58] "    c                           " 400 -
+Not Found: /
+[08/Sep/2022 07:49:29] "GET / HTTP/1.1" 404 2370
+[08/Sep/2022 10:22:37] code 400, message Bad request syntax ('MGLNDD_192.46.213.101_8000')
+[08/Sep/2022 10:22:37] "MGLNDD_192.46.213.101_8000" 400 -
+[08/Sep/2022 10:44:02] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[08/Sep/2022 10:44:02] "    c                           " 400 -
+[08/Sep/2022 10:51:52] code 400, message Bad request version ('À\x14À')
+[08/Sep/2022 10:51:52] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[08/Sep/2022 10:51:52] code 400, message Bad request version ('À\x14À')
+[08/Sep/2022 10:51:52] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /
+[08/Sep/2022 10:51:53] "GET / HTTP/1.1" 404 2370
+[08/Sep/2022 11:13:56] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[08/Sep/2022 11:13:56] "    c                           " 400 -
+Not Found: /
+[08/Sep/2022 11:41:03] "GET / HTTP/1.1" 404 2370
+----------------------------------------
+Exception occurred during processing of request from ('167.94.146.57', 34618)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[08/Sep/2022 15:00:44] "GET / HTTP/1.1" 404 2370
+----------------------------------------
+Exception occurred during processing of request from ('167.94.146.57', 45632)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[08/Sep/2022 15:00:45] "GET / HTTP/1.1" 404 2370
+[08/Sep/2022 15:00:45] code 505, message Invalid HTTP version (2.0)
+[08/Sep/2022 15:00:45] "PRI * HTTP/2.0" 505 -
+[08/Sep/2022 16:43:39] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[08/Sep/2022 16:43:39] "    c                           " 400 -
+[08/Sep/2022 17:11:29] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[08/Sep/2022 17:11:29] "    c                           " 400 -
+[08/Sep/2022 20:16:30] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03L:ä7\x00Ê\x9dxy\x15K\x12lúZtØ\x01*\x80\x0fé\x95Zæ}9Nÿ\x19bd\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[08/Sep/2022 20:16:30] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[08/Sep/2022 20:16:30] code 400, message Bad request version ('À\x14À')
+[08/Sep/2022 20:16:30] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /
+[08/Sep/2022 20:16:31] "GET / HTTP/1.1" 404 2370
+Not Found: /
+[09/Sep/2022 00:24:48] "GET / HTTP/1.1" 404 2370
+Invalid HTTP_HOST header: 'example.com'. You may need to add 'example.com' to ALLOWED_HOSTS.
+Bad Request: /http:/example.com/
+[09/Sep/2022 01:20:04] "GET http://example.com/ HTTP/1.1" 400 65507
+----------------------------------------
+Exception occurred during processing of request from ('167.94.138.120', 54088)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[09/Sep/2022 01:28:37] "GET / HTTP/1.1" 404 2370
+----------------------------------------
+Exception occurred during processing of request from ('167.94.138.120', 40892)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[09/Sep/2022 01:28:38] "GET / HTTP/1.1" 404 2370
+[09/Sep/2022 01:28:39] code 505, message Invalid HTTP version (2.0)
+[09/Sep/2022 01:28:39] "PRI * HTTP/2.0" 505 -
+Invalid HTTP_HOST header: '192-46-213-101.ip.linodeusercontent.com:8000'. You may need to add '192-46-213-101.ip.linodeusercontent.com' to ALLOWED_HOSTS.
+Bad Request: /
+[09/Sep/2022 02:15:30] "HEAD / HTTP/1.0" 400 65334
+Not Found: /system_api.php
+[09/Sep/2022 02:15:31] "GET /system_api.php HTTP/1.1" 404 2430
+Not Found: /c/version.js
+[09/Sep/2022 02:15:34] "GET /c/version.js HTTP/1.1" 404 2424
+Not Found: /streaming/clients_live.php
+[09/Sep/2022 02:15:37] "GET /streaming/clients_live.php HTTP/1.1" 404 2466
+Not Found: /stalker_portal/c/version.js
+[09/Sep/2022 02:15:40] "GET /stalker_portal/c/version.js HTTP/1.1" 404 2469
+Not Found: /stream/live.php
+[09/Sep/2022 02:15:43] "GET /stream/live.php HTTP/1.1" 404 2433
+Not Found: /flu/403.html
+[09/Sep/2022 02:15:46] "GET /flu/403.html HTTP/1.1" 404 2424
+Not Found: /
+[09/Sep/2022 02:15:49] "GET / HTTP/1.1" 404 2370
+Invalid HTTP_HOST header: 'example.com'. You may need to add 'example.com' to ALLOWED_HOSTS.
+Bad Request: /http:/example.com/
+[09/Sep/2022 03:36:47] "GET http://example.com/ HTTP/1.1" 400 65507
+Not Found: /
+[09/Sep/2022 06:36:58] "GET / HTTP/1.1" 404 2370
+[09/Sep/2022 07:33:47] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[09/Sep/2022 07:33:47] "    c                           " 400 -
+[09/Sep/2022 07:41:14] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[09/Sep/2022 07:41:14] "    c                           " 400 -
+[09/Sep/2022 10:03:09] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[09/Sep/2022 10:03:09] "    c                           " 400 -
+Invalid HTTP_HOST header: 'example.com'. You may need to add 'example.com' to ALLOWED_HOSTS.
+Bad Request: /http:/example.com/
+[09/Sep/2022 10:33:21] "GET http://example.com/ HTTP/1.1" 400 65507
+[09/Sep/2022 11:25:52] code 400, message Bad request version ('À\x13À')
+[09/Sep/2022 11:25:52] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /
+[09/Sep/2022 11:25:57] "GET / HTTP/1.1" 404 2370
+[09/Sep/2022 11:34:51] code 400, message Bad request syntax ('MGLNDD_192.46.213.101_8000')
+[09/Sep/2022 11:34:51] "MGLNDD_192.46.213.101_8000" 400 -
+[09/Sep/2022 14:16:59] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[09/Sep/2022 14:16:59] "  /*à     Cookie: mstshash=Administr" 400 -
+[09/Sep/2022 14:30:28] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[09/Sep/2022 14:30:28] "    c                           " 400 -
+[09/Sep/2022 16:15:51] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[09/Sep/2022 16:15:51] "    c                           " 400 -
+[09/Sep/2022 16:24:41] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[09/Sep/2022 16:24:41] "    c                           " 400 -
+[09/Sep/2022 17:44:53] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[09/Sep/2022 17:44:53] "    c                           " 400 -
+[09/Sep/2022 18:09:47] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[09/Sep/2022 18:09:47] "    c                           " 400 -
+[09/Sep/2022 18:58:59] code 400, message Bad request version ('À\x14À')
+[09/Sep/2022 18:58:59] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Invalid HTTP_HOST header: 'fuwu.sogou.com'. You may need to add 'fuwu.sogou.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'fuwu.sogou.com'. You may need to add 'fuwu.sogou.com' to ALLOWED_HOSTS.
+Bad Request: /http:/fuwu.sogou.com/404/index.html
+[09/Sep/2022 18:58:59] "GET http://fuwu.sogou.com/404/index.html HTTP/1.1" 400 66097
+Bad Request: /http:/fuwu.sogou.com/404/index.html
+[09/Sep/2022 18:58:59] "GET http://fuwu.sogou.com/404/index.html HTTP/1.1" 400 66081
+[09/Sep/2022 18:59:06] code 400, message Bad request syntax ('\x05\x01\x00')
+[09/Sep/2022 18:59:06] " " 400 -
+[09/Sep/2022 18:59:06,152] - Broken pipe from ('222.186.19.235', 58804)
+
+[09/Sep/2022 19:52:05] code 400, message Bad request version ('À\x14À')
+[09/Sep/2022 19:52:05] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[09/Sep/2022 19:52:05] code 400, message Bad request version ('À\x14À')
+[09/Sep/2022 19:52:05] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /
+[09/Sep/2022 19:52:06] "GET / HTTP/1.1" 404 2370
+[09/Sep/2022 20:26:18] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[09/Sep/2022 20:26:18] "    c                           " 400 -
+[09/Sep/2022 20:41:52] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[09/Sep/2022 20:41:52] "    c                           " 400 -
+[09/Sep/2022 22:15:33] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[09/Sep/2022 22:15:33] "    c                           " 400 -
+[09/Sep/2022 22:32:02] code 400, message Bad request syntax ('\x01\x01æ')
+[09/Sep/2022 22:32:02] "æ" 400 -
+----------------------------------------
+Exception occurred during processing of request from ('167.94.145.57', 60890)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[10/Sep/2022 01:01:18] "GET / HTTP/1.1" 404 2370
+----------------------------------------
+Exception occurred during processing of request from ('167.94.145.57', 40976)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[10/Sep/2022 01:01:18] "GET / HTTP/1.1" 404 2370
+[10/Sep/2022 01:01:19] code 505, message Invalid HTTP version (2.0)
+[10/Sep/2022 01:01:19] "PRI * HTTP/2.0" 505 -
+[10/Sep/2022 01:08:04] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[10/Sep/2022 01:08:04] "    c                           " 400 -
+Not Found: /
+[10/Sep/2022 02:34:48] "GET / HTTP/1.1" 404 2370
+[10/Sep/2022 02:45:40] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[10/Sep/2022 02:45:40] "    c                           " 400 -
+Invalid HTTP_HOST header: '192-46-213-101.ip.linodeusercontent.com:8000'. You may need to add '192-46-213-101.ip.linodeusercontent.com' to ALLOWED_HOSTS.
+Bad Request: /
+[10/Sep/2022 05:44:42] "GET / HTTP/1.0" 400 65328
+[10/Sep/2022 05:44:48] code 400, message Bad HTTP/0.9 request type ('l\x00')
+[10/Sep/2022 05:44:48] "l          " 400 -
+Invalid HTTP_HOST header: '192-46-213-101.ip.linodeusercontent.com:8000'. You may need to add '192-46-213-101.ip.linodeusercontent.com' to ALLOWED_HOSTS.
+Bad Request: /nice ports,/Trinity.txt.bak
+[10/Sep/2022 05:44:48] "GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0" 400 65637
+[10/Sep/2022 05:44:49] code 400, message Bad request syntax ('\x05\x04\x00\x01\x02\x80\x05\x01\x00\x03')
+[10/Sep/2022 05:44:49] "  " 400 -
+[10/Sep/2022 05:44:54] code 400, message Bad request syntax ('\x04\x01\x00\x16\x7f\x00\x00\x01root\x00')
+[10/Sep/2022 05:44:54] "   root " 400 -
+Invalid HTTP_HOST header: '192-46-213-101.ip.linodeusercontent.com:8000'. You may need to add '192-46-213-101.ip.linodeusercontent.com' to ALLOWED_HOSTS.
+Bad Request: /
+[10/Sep/2022 05:44:55] "OPTIONS / HTTP/1.0" 400 65356
+[10/Sep/2022 05:44:55] code 400, message Bad request version ('RTSP/1.0')
+[10/Sep/2022 05:44:55] "OPTIONS / RTSP/1.0" 400 -
+[10/Sep/2022 05:45:01] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[10/Sep/2022 05:45:01] "  (rþ          |                    " 400 -
+[10/Sep/2022 05:45:06] code 400, message Bad HTTP/0.9 request type ('\x00')
+[10/Sep/2022 05:45:06] "          versionbind   " 400 -
+[10/Sep/2022 05:45:06] code 400, message Bad request syntax ('HELP')
+[10/Sep/2022 05:45:06] "HELP" 400 -
+[10/Sep/2022 05:45:07] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+[10/Sep/2022 05:45:07] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[10/Sep/2022 05:45:08] code 400, message Bad request version ('\x00/\x00')
+[10/Sep/2022 05:45:08] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[10/Sep/2022 05:45:08] code 400, message Bad request syntax ('\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01')
+[10/Sep/2022 05:45:08] "   qjn0k¡¢" 400 -
+[10/Sep/2022 05:45:14] code 400, message Bad request version ('0.12\x00')
+[10/Sep/2022 05:45:14] "   ¤ÿSMBr    @              @     PC NETWORK PROGRAM 1.0 MICROSOFT NETWORKS 1.03 MICROSOFT NETWORKS 3.0 LANMAN1.0 LM1.2X002 Samba NT LANMAN 1.0 NT LM 0.12 " 400 -
+[10/Sep/2022 05:45:14] code 400, message Bad request version ('SIP/2.0')
+[10/Sep/2022 05:45:14] "OPTIONS sip:nm SIP/2.0" 400 -
+Invalid HTTP_HOST header: 'www.google.com'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: '192-46-213-101.ip.linodeusercontent.com:8000'. You may need to add '192-46-213-101.ip.linodeusercontent.com' to ALLOWED_HOSTS.
+Bad Request: /http:/www.google.com
+[10/Sep/2022 05:45:15] "GET http://www.google.com HTTP/1.0" 400 65273
+Bad Request: /
+[10/Sep/2022 05:45:15] "GET /?=PHPE9568F36-D428-11d2-A769-00AA001ACF42 HTTP/1.1" 400 66382
+Invalid HTTP_HOST header: '192-46-213-101.ip.linodeusercontent.com:8000'. You may need to add '192-46-213-101.ip.linodeusercontent.com' to ALLOWED_HOSTS.
+Bad Request: /
+[10/Sep/2022 05:45:15] "GET / HTTP/1.1" 400 65776
+Invalid HTTP_HOST header: 'www.google.com'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+[10/Sep/2022 05:45:15] code 400, message Bad request version ('\x00/\x00')
+Invalid HTTP_HOST header: '192-46-213-101.ip.linodeusercontent.com:8000'. You may need to add '192-46-213-101.ip.linodeusercontent.com' to ALLOWED_HOSTS.
+[10/Sep/2022 05:45:15] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Invalid HTTP_HOST header: '192-46-213-101.ip.linodeusercontent.com:8000'. You may need to add '192-46-213-101.ip.linodeusercontent.com' to ALLOWED_HOSTS.
+Bad Request: /http:/www.google.com
+[10/Sep/2022 05:45:15] "HEAD http://www.google.com HTTP/1.0" 400 65280
+Invalid HTTP_HOST header: '192-46-213-101.ip.linodeusercontent.com:8000'. You may need to add '192-46-213-101.ip.linodeusercontent.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: '192-46-213-101.ip.linodeusercontent.com:8000'. You may need to add '192-46-213-101.ip.linodeusercontent.com' to ALLOWED_HOSTS.
+Bad Request: /Portal0000.htm
+Bad Request: /AChp
+[10/Sep/2022 05:45:15] "GET /Portal0000.htm HTTP/1.1" 400 65930
+Bad Request: /CSS/Miniweb.css
+Bad Request: /.git/HEAD
+Invalid HTTP_HOST header: '192-46-213-101.ip.linodeusercontent.com:8000'. You may need to add '192-46-213-101.ip.linodeusercontent.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: '192-46-213-101.ip.linodeusercontent.com:8000'. You may need to add '192-46-213-101.ip.linodeusercontent.com' to ALLOWED_HOSTS.
+[10/Sep/2022 05:45:16] "GET /AChp HTTP/1.1" 400 65820
+Bad Request: /www.google.com:80
+[10/Sep/2022 05:45:16] "GET /CSS/Miniweb.css HTTP/1.1" 400 65941
+Invalid HTTP_HOST header: '192-46-213-101.ip.linodeusercontent.com:8000'. You may need to add '192-46-213-101.ip.linodeusercontent.com' to ALLOWED_HOSTS.
+Bad Request: /base.jhtml
+[10/Sep/2022 05:45:16] "CONNECT www.google.com:80 HTTP/1.0" 400 65538
+[10/Sep/2022 05:45:16] "GET /base.jhtml HTTP/1.1" 400 65886
+[10/Sep/2022 05:45:16] "GET /.git/HEAD HTTP/1.1" 400 65875
+Bad Request: /
+[10/Sep/2022 05:45:16] "GET /?=PHPB8B5F2A0-3C92-11d3-A3A9-4C7B08C10000 HTTP/1.1" 400 66382
+Invalid HTTP_HOST header: '192-46-213-101.ip.linodeusercontent.com:8000'. You may need to add '192-46-213-101.ip.linodeusercontent.com' to ALLOWED_HOSTS.
+Bad Request: /__Additional
+[10/Sep/2022 05:45:17] "GET /__Additional HTTP/1.1" 400 65908
+Invalid HTTP_HOST header: '192-46-213-101.ip.linodeusercontent.com:8000'. You may need to add '192-46-213-101.ip.linodeusercontent.com' to ALLOWED_HOSTS.
+Bad Request: /admin.shtml
+[10/Sep/2022 05:45:18] "GET /admin.shtml HTTP/1.1" 400 65897
+Invalid HTTP_HOST header: '192-46-213-101.ip.linodeusercontent.com:8000'. You may need to add '192-46-213-101.ip.linodeusercontent.com' to ALLOWED_HOSTS.
+Bad Request: /server-status
+Invalid HTTP_HOST header: '192-46-213-101.ip.linodeusercontent.com:8000'. You may need to add '192-46-213-101.ip.linodeusercontent.com' to ALLOWED_HOSTS.
+Bad Request: /sdk
+[10/Sep/2022 05:45:19] "GET /server-status HTTP/1.1" 400 65919
+[10/Sep/2022 05:45:19] "POST /sdk HTTP/1.1" 400 65819
+Invalid HTTP_HOST header: '192-46-213-101.ip.linodeusercontent.com:8000'. You may need to add '192-46-213-101.ip.linodeusercontent.com' to ALLOWED_HOSTS.
+Bad Request: /index.jsp
+[10/Sep/2022 05:45:20] "GET /index.jsp HTTP/1.1" 400 65875
+Invalid HTTP_HOST header: '192-46-213-101.ip.linodeusercontent.com:8000'. You may need to add '192-46-213-101.ip.linodeusercontent.com' to ALLOWED_HOSTS.
+Bad Request: /Portal/Portal.mwsl
+[10/Sep/2022 05:45:20] "GET /Portal/Portal.mwsl HTTP/1.1" 400 65974
+Invalid HTTP_HOST header: '192-46-213-101.ip.linodeusercontent.com:8000'. You may need to add '192-46-213-101.ip.linodeusercontent.com' to ALLOWED_HOSTS.
+Bad Request: /nmaplowercheck1662788714
+[10/Sep/2022 05:45:21] "GET /nmaplowercheck1662788714 HTTP/1.1" 400 66040
+Invalid HTTP_HOST header: '192-46-213-101.ip.linodeusercontent.com:8000'. You may need to add '192-46-213-101.ip.linodeusercontent.com' to ALLOWED_HOSTS.
+Bad Request: /home.cfm
+Invalid HTTP_HOST header: '192-46-213-101.ip.linodeusercontent.com:8000'. You may need to add '192-46-213-101.ip.linodeusercontent.com' to ALLOWED_HOSTS.
+Bad Request: /docs/cplugError.html/
+[10/Sep/2022 05:45:22] "GET /docs/cplugError.html/ HTTP/1.1" 400 66007
+[10/Sep/2022 05:45:22] "GET /home.cfm HTTP/1.1" 400 65864
+Invalid HTTP_HOST header: '192-46-213-101.ip.linodeusercontent.com:8000'. You may need to add '192-46-213-101.ip.linodeusercontent.com' to ALLOWED_HOSTS.
+Bad Request: /HNAP1
+[10/Sep/2022 05:45:22] "GET /HNAP1 HTTP/1.1" 400 65831
+Invalid HTTP_HOST header: '192-46-213-101.ip.linodeusercontent.com:8000'. You may need to add '192-46-213-101.ip.linodeusercontent.com' to ALLOWED_HOSTS.
+Bad Request: /base.asp
+[10/Sep/2022 05:45:23] "GET /base.asp HTTP/1.1" 400 65864
+Invalid HTTP_HOST header: '192-46-213-101.ip.linodeusercontent.com:8000'. You may need to add '192-46-213-101.ip.linodeusercontent.com' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[10/Sep/2022 05:45:23] "GET /favicon.ico HTTP/1.1" 400 65897
+Invalid HTTP_HOST header: 'www'. You may need to add 'www' to ALLOWED_HOSTS.
+Bad Request: /
+[10/Sep/2022 05:45:25] "GET / HTTP/1.1" 400 65365
+Invalid HTTP_HOST header: '192-46-213-101.ip.linodeusercontent.com'. You may need to add '192-46-213-101.ip.linodeusercontent.com' to ALLOWED_HOSTS.
+Bad Request: /
+[10/Sep/2022 05:45:25] "GET / HTTP/1.1" 400 65428
+[10/Sep/2022 05:45:53] code 400, message Bad request syntax ('\x0e\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbbb0100000001')
+[10/Sep/2022 05:45:53] "               bbbb0100000001" 400 -
+Not Found: /
+[10/Sep/2022 06:50:46] "GET / HTTP/1.1" 404 2370
+[10/Sep/2022 07:44:57] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[10/Sep/2022 07:44:57] "    c                           " 400 -
+Not Found: /
+[10/Sep/2022 07:46:22] "GET / HTTP/1.1" 404 2370
+[10/Sep/2022 08:08:44] code 400, message Bad request version ('À\x14À')
+[10/Sep/2022 08:08:44] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[10/Sep/2022 08:47:20] code 400, message Bad request syntax ('\x16\x03\x01\x00\x8c\x01\x00\x00\x88\x03\x03Äk÷ê½ÓýøÙ;öÒYS4=\x0e\x82\x94¦')
+[10/Sep/2022 08:47:20] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[10/Sep/2022 09:08:14] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[10/Sep/2022 09:08:14] "    c                           " 400 -
+[10/Sep/2022 11:17:44] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[10/Sep/2022 11:17:44] "    c                           " 400 -
+Not Found: /
+[10/Sep/2022 11:26:20] "GET / HTTP/1.1" 404 2370
+[10/Sep/2022 12:13:56] code 400, message Bad request syntax ('MGLNDD_192.46.213.101_8000')
+[10/Sep/2022 12:13:56] "MGLNDD_192.46.213.101_8000" 400 -
+Not Found: /
+[10/Sep/2022 12:24:36] "GET / HTTP/1.1" 404 2364
+Not Found: /robots.txt
+[10/Sep/2022 13:20:19] "GET /robots.txt HTTP/1.1" 404 2413
+Not Found: /
+[10/Sep/2022 13:20:27] "GET / HTTP/1.1" 404 2365
+----------------------------------------
+Exception occurred during processing of request from ('167.94.146.60', 37316)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[10/Sep/2022 13:20:46] "GET / HTTP/1.1" 404 2370
+----------------------------------------
+Exception occurred during processing of request from ('167.94.146.60', 47678)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[10/Sep/2022 13:20:47] "GET / HTTP/1.1" 404 2370
+[10/Sep/2022 13:20:47] code 505, message Invalid HTTP version (2.0)
+[10/Sep/2022 13:20:47] "PRI * HTTP/2.0" 505 -
+----------------------------------------
+Exception occurred during processing of request from ('167.248.133.118', 42950)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[10/Sep/2022 15:19:02] "GET / HTTP/1.1" 404 2370
+----------------------------------------
+Exception occurred during processing of request from ('167.248.133.118', 46426)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[10/Sep/2022 15:19:03] "GET / HTTP/1.1" 404 2370
+[10/Sep/2022 15:19:03] code 505, message Invalid HTTP version (2.0)
+[10/Sep/2022 15:19:03] "PRI * HTTP/2.0" 505 -
+Not Found: /
+[10/Sep/2022 17:12:42] "GET / HTTP/1.1" 404 2370
+[10/Sep/2022 17:43:12] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[10/Sep/2022 17:43:12] "  /*à     Cookie: mstshash=Administr" 400 -
+----------------------------------------
+Exception occurred during processing of request from ('45.227.254.26', 16800)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[10/Sep/2022 20:30:00] code 400, message Bad HTTP/0.9 request type ("\x03\x00\x00,'à\x00\x00\x00\x00\x00Cookie:")
+[10/Sep/2022 20:30:00] "  ,'à     Cookie: mstshash=Domain" 400 -
+[10/Sep/2022 20:30:00] code 400, message Bad HTTP/0.9 request type ("\x03\x00\x00,'à\x00\x00\x00\x00\x00Cookie:")
+[10/Sep/2022 20:30:00] "  ,'à     Cookie: mstshash=Domain" 400 -
+Not Found: /
+[10/Sep/2022 22:18:25] "GET / HTTP/1.1" 404 2370
+[10/Sep/2022 23:03:12] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[10/Sep/2022 23:03:12] "    c                           " 400 -
+[10/Sep/2022 23:12:45] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03å\x02]ù¼\x05é\x02Øe3\x02ò\x8abá&¦2+`+\x95Y9ëS\x00;\x14G\x8d\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[10/Sep/2022 23:12:45] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[10/Sep/2022 23:12:46] code 400, message Bad request version ('À\x14À')
+[10/Sep/2022 23:12:46] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /
+[10/Sep/2022 23:12:46] "GET / HTTP/1.1" 404 2370
+----------------------------------------
+Exception occurred during processing of request from ('167.94.138.62', 45884)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[11/Sep/2022 02:25:13] "GET / HTTP/1.1" 404 2370
+----------------------------------------
+Exception occurred during processing of request from ('167.94.138.62', 59664)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[11/Sep/2022 02:25:13] "GET / HTTP/1.1" 404 2370
+[11/Sep/2022 02:25:14] code 505, message Invalid HTTP version (2.0)
+[11/Sep/2022 02:25:14] "PRI * HTTP/2.0" 505 -
+[11/Sep/2022 07:51:00] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[11/Sep/2022 07:51:00] "    c                           " 400 -
+[11/Sep/2022 09:08:59] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[11/Sep/2022 09:08:59] "    c                           " 400 -
+[11/Sep/2022 09:08:59] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[11/Sep/2022 09:08:59] "    c                           " 400 -
+Not Found: /
+[11/Sep/2022 09:28:43] "GET / HTTP/1.1" 404 2370
+----------------------------------------
+Exception occurred during processing of request from ('162.142.125.221', 46060)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[11/Sep/2022 09:48:38] "GET / HTTP/1.1" 404 2370
+----------------------------------------
+Exception occurred during processing of request from ('162.142.125.221', 55726)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[11/Sep/2022 09:48:39] "GET / HTTP/1.1" 404 2370
+[11/Sep/2022 09:48:40] code 505, message Invalid HTTP version (2.0)
+[11/Sep/2022 09:48:40] "PRI * HTTP/2.0" 505 -
+[11/Sep/2022 09:56:09] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[11/Sep/2022 09:56:09] "    c                           " 400 -
+Not Found: /
+[11/Sep/2022 12:25:21] "GET / HTTP/1.1" 404 2370
+[11/Sep/2022 12:29:01] code 400, message Bad request syntax ('Segment-Num:1')
+[11/Sep/2022 12:29:01] "Segment-Num:1" 400 -
+[11/Sep/2022 12:35:18] code 400, message Bad request version ('?ª¸\x00X\xad1e\x8cd¨\x80U\x12Ì\x19\x9d;wÌÙ<û«\x99\x1a¦°')
+[11/Sep/2022 12:35:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /
+[11/Sep/2022 12:35:18] "GET / HTTP/1.1" 404 2370
+[11/Sep/2022 12:35:19] code 400, message Bad request version ('À\x13À')
+[11/Sep/2022 12:35:19] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[11/Sep/2022 12:35:20] code 400, message Bad request version ('À\x13À')
+[11/Sep/2022 12:35:20] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[11/Sep/2022 12:35:21] code 400, message Bad request syntax ('\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x05¾ÓÖ\x14\x02\x10×\x04?ÝwHê\x81t§')
+[11/Sep/2022 12:35:21] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[11/Sep/2022 12:35:21] code 400, message Bad request version ('À\x13À')
+[11/Sep/2022 12:35:21] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[11/Sep/2022 12:35:22] code 400, message Bad request version ('À\x13À')
+[11/Sep/2022 12:35:22] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[11/Sep/2022 12:35:22] code 400, message Bad request version ('À\x13À')
+[11/Sep/2022 12:35:22] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[11/Sep/2022 14:18:48] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[11/Sep/2022 14:18:48] "    c                           " 400 -
+[11/Sep/2022 15:11:58] code 400, message Bad request syntax ('MGLNDD_192.46.213.101_8000')
+[11/Sep/2022 15:11:58] "MGLNDD_192.46.213.101_8000" 400 -
+[11/Sep/2022 15:57:58] code 400, message Bad request version ('À\x14À')
+[11/Sep/2022 15:57:58] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[11/Sep/2022 17:25:02] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[11/Sep/2022 17:25:02] "    c                           " 400 -
+Not Found: /
+[11/Sep/2022 18:06:55] "GET / HTTP/1.1" 404 2370
+[11/Sep/2022 18:07:51] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[11/Sep/2022 18:07:51] "    c                           " 400 -
+Invalid HTTP_HOST header: 'fuwu.sogou.com'. You may need to add 'fuwu.sogou.com' to ALLOWED_HOSTS.
+Bad Request: /http:/fuwu.sogou.com/404/index.html
+[11/Sep/2022 18:52:56] "GET http://fuwu.sogou.com/404/index.html HTTP/1.1" 400 66097
+Invalid HTTP_HOST header: 'fuwu.sogou.com'. You may need to add 'fuwu.sogou.com' to ALLOWED_HOSTS.
+Bad Request: /http:/fuwu.sogou.com/404/index.html
+[11/Sep/2022 18:53:01] "GET http://fuwu.sogou.com/404/index.html HTTP/1.1" 400 66097
+Not Found: /
+[11/Sep/2022 19:18:26] "GET / HTTP/1.1" 404 2370
+[11/Sep/2022 20:53:31] code 400, message Bad request version ('À\x13À')
+[11/Sep/2022 20:53:31] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /weblogictestxd
+[11/Sep/2022 20:54:00] "GET /weblogictestxd HTTP/1.1" 404 2430
+----------------------------------------
+Exception occurred during processing of request from ('45.227.254.52', 52056)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[11/Sep/2022 23:58:09] code 400, message Bad HTTP/0.9 request type ("\x03\x00\x00,'à\x00\x00\x00\x00\x00Cookie:")
+[11/Sep/2022 23:58:09] "  ,'à     Cookie: mstshash=Domain" 400 -
+[11/Sep/2022 23:58:09] code 400, message Bad HTTP/0.9 request type ("\x03\x00\x00,'à\x00\x00\x00\x00\x00Cookie:")
+[11/Sep/2022 23:58:09] "  ,'à     Cookie: mstshash=Domain" 400 -
+[12/Sep/2022 02:36:37] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x8ch·üHUúgsÏ:µ\x82\x95]è\x9eÈ\x9e*ö\x8be*7X\x1aæ¢b"Þ\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[12/Sep/2022 02:36:37] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[12/Sep/2022 02:36:38] code 400, message Bad request version ('À\x14À')
+[12/Sep/2022 02:36:38] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /
+[12/Sep/2022 02:36:38] "GET / HTTP/1.1" 404 2370
+Not Found: /../../mnt/mtd/Config/Account1
+[12/Sep/2022 03:59:50] "GET /../../mnt/mtd/Config/Account1 HTTP/1.1" 404 2469
+[12/Sep/2022 04:51:10] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[12/Sep/2022 04:51:10] "  /*à     Cookie: mstshash=Administr" 400 -
+[12/Sep/2022 05:10:07] code 400, message Bad request syntax ('ðÞ¼')
+[12/Sep/2022 05:10:07] "ðÞ¼" 400 -
+[12/Sep/2022 06:33:25] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[12/Sep/2022 06:33:25] "    c                           " 400 -
+[12/Sep/2022 08:06:08] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[12/Sep/2022 08:06:08] "    c                           " 400 -
+[12/Sep/2022 09:18:48] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[12/Sep/2022 09:18:48] "  /*à     Cookie: mstshash=Administr" 400 -
+Not Found: /
+[12/Sep/2022 09:44:50] "GET / HTTP/1.1" 404 2370
+Not Found: /
+[12/Sep/2022 11:05:17] "GET / HTTP/1.1" 404 2370
+[12/Sep/2022 13:34:49] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x02\x00\x00\x00')
+[12/Sep/2022 13:34:49] "  à          " 400 -
+[12/Sep/2022 17:12:27] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[12/Sep/2022 17:12:27] "    c                           " 400 -
+[12/Sep/2022 18:11:28] code 400, message Bad request syntax ('MGLNDD_192.46.213.101_8000')
+[12/Sep/2022 18:11:28] "MGLNDD_192.46.213.101_8000" 400 -
+[12/Sep/2022 18:43:50] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[12/Sep/2022 18:43:50] "    c                           " 400 -
+[12/Sep/2022 23:09:06] code 400, message Bad request version ('À\x13À')
+[12/Sep/2022 23:09:06] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /
+[12/Sep/2022 23:09:16] "GET / HTTP/1.1" 404 2370
+----------------------------------------
+Exception occurred during processing of request from ('43.131.68.225', 53808)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[12/Sep/2022 23:09:34] "GET / HTTP/1.1" 404 2370
+Not Found: /favicon.ico
+[12/Sep/2022 23:09:35] "GET /favicon.ico HTTP/1.1" 404 2421
+Not Found: /
+[12/Sep/2022 23:09:53] "GET / HTTP/1.1" 404 2369
+Not Found: /favicon.ico
+[12/Sep/2022 23:09:55] "GET /favicon.ico HTTP/1.1" 404 2420
+Not Found: /
+[13/Sep/2022 01:10:48] "GET / HTTP/1.1" 404 2370
+Not Found: /
+[13/Sep/2022 04:40:41] "GET / HTTP/1.1" 404 2370
+[13/Sep/2022 06:11:51] code 400, message Bad request version ('À\x14À')
+[13/Sep/2022 06:11:51] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[13/Sep/2022 06:11:51] code 400, message Bad request version ('À\x14À')
+[13/Sep/2022 06:11:51] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /
+[13/Sep/2022 06:11:52] "GET / HTTP/1.1" 404 2370
+Invalid HTTP_HOST header: '192-46-213-101.ip.linodeusercontent.com:8000'. You may need to add '192-46-213-101.ip.linodeusercontent.com' to ALLOWED_HOSTS.
+Bad Request: /
+[13/Sep/2022 06:55:32] "GET / HTTP/1.0" 400 65328
+[13/Sep/2022 07:08:54] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00u\x01\x00\x00q\x03\x03\x02êÎ\x14øÒèêÂe!Á\x8döÎ@Ó\x81õ]z\x9dL\x13\x1a¤ø\x95ý§ùm\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[13/Sep/2022 07:08:54] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[13/Sep/2022 08:17:42] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[13/Sep/2022 08:17:42] "    c                           " 400 -
+[13/Sep/2022 09:19:17] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[13/Sep/2022 09:19:17] "    c                           " 400 -
+[13/Sep/2022 09:40:53] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x02\x00\x00\x00')
+[13/Sep/2022 09:40:53] "  à          " 400 -
+Not Found: /
+[13/Sep/2022 10:31:50] "GET / HTTP/1.1" 404 2370
+[13/Sep/2022 10:31:51] code 505, message Invalid HTTP version (2.0)
+[13/Sep/2022 10:31:51] "PRI * HTTP/2.0" 505 -
+Not Found: /
+[13/Sep/2022 11:27:07] "GET / HTTP/1.1" 404 2370
+Not Found: /
+[13/Sep/2022 15:53:39] "GET / HTTP/1.1" 404 2364
+[13/Sep/2022 17:31:01] code 400, message Bad request version ('À\x14À')
+[13/Sep/2022 17:31:01] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Invalid HTTP_HOST header: 'fuwu.sogou.com'. You may need to add 'fuwu.sogou.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'fuwu.sogou.com'. You may need to add 'fuwu.sogou.com' to ALLOWED_HOSTS.
+Bad Request: /http:/fuwu.sogou.com/404/index.html
+[13/Sep/2022 17:31:01] "GET http://fuwu.sogou.com/404/index.html HTTP/1.1" 400 66101
+Bad Request: /http:/fuwu.sogou.com/404/index.html
+[13/Sep/2022 17:31:01] "GET http://fuwu.sogou.com/404/index.html HTTP/1.1" 400 66105
+[13/Sep/2022 17:31:08] code 400, message Bad request syntax ('\x05\x01\x00')
+[13/Sep/2022 17:31:08] " " 400 -
+[13/Sep/2022 17:31:08,804] - Broken pipe from ('222.186.19.235', 41910)
+
+[13/Sep/2022 18:20:31] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[13/Sep/2022 18:20:31] "    c                           " 400 -
+----------------------------------------
+Exception occurred during processing of request from ('167.248.133.120', 36116)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[13/Sep/2022 18:48:08] "GET / HTTP/1.1" 404 2370
+----------------------------------------
+Exception occurred during processing of request from ('167.248.133.120', 52464)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[13/Sep/2022 18:48:09] "GET / HTTP/1.1" 404 2370
+[13/Sep/2022 18:48:10] code 505, message Invalid HTTP version (2.0)
+[13/Sep/2022 18:48:10] "PRI * HTTP/2.0" 505 -
+[13/Sep/2022 20:16:03] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[13/Sep/2022 20:16:03] "    c                           " 400 -
+Not Found: /../../mnt/mtd/Config/Account1
+[13/Sep/2022 20:32:09] "GET /../../mnt/mtd/Config/Account1 HTTP/1.1" 404 2469
+[13/Sep/2022 21:10:39] code 400, message Bad request syntax ('MGLNDD_192.46.213.101_8000')
+[13/Sep/2022 21:10:39] "MGLNDD_192.46.213.101_8000" 400 -
+[13/Sep/2022 21:18:57] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[13/Sep/2022 21:18:57] "  /*à     Cookie: mstshash=Administr" 400 -
+[13/Sep/2022 22:43:01] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[13/Sep/2022 22:43:01] "    c                           " 400 -
+[13/Sep/2022 22:50:16] code 400, message Bad request syntax ('ðÞ¼')
+[13/Sep/2022 22:50:16] "ðÞ¼" 400 -
+[13/Sep/2022 22:52:42] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[13/Sep/2022 22:52:42] "    c                           " 400 -
+Not Found: /
+[14/Sep/2022 00:45:37] "GET / HTTP/1.1" 404 2370
+Not Found: /
+[14/Sep/2022 01:36:03] "GET / HTTP/1.1" 404 2370
+[14/Sep/2022 03:39:39] code 400, message Bad HTTP/0.9 request type ('\\x01\\x00\\x00\\x00')
+[14/Sep/2022 03:39:39] "\x01\x00\x00\x00 \xbf\x02\x00\x88\x13\x00\x00\x87\x00\x00\x00NIMABIJIAN\x04\x03\x00\x00{\x99Caig\x9c\x03\xc7eB\xc5\t\xc1\x18a\x11\x1a\x91\x1f\x02\tcof\x91\xc0\x80sJ5\xd2\x80\xe6\x9a~\xb9\xc7\x83^\x96\xeeN\x16\x96\x96&\xe6\x03\xea\xbc\x81\x02=\xac\x10\xfa?7\x03\xc3\xdf\xf7\xe4\x98`p\xe6\x8d\xc1\xa9\x8d\xc6\x06\xdb\xaf\x91\xe7\x82s\xf7\x14H\xd4\xe1W\x9a\x93C\x9e]\xa4\x01#\x03#\x03]\x03c]CC\x05C\x03+S\x03b\xf4\x00\x00/\x9e\x16E" 400 -
+Not Found: /favicon.ico
+[14/Sep/2022 03:39:40] "GET /favicon.ico HTTP/1.1" 404 2421
+Not Found: /robots.txt
+[14/Sep/2022 03:39:42] "GET /robots.txt HTTP/1.1" 404 2418
+Not Found: /.well-known/security.txt
+[14/Sep/2022 03:39:42] "GET /.well-known/security.txt HTTP/1.1" 404 2460
+Not Found: /
+[14/Sep/2022 07:19:33] "GET / HTTP/1.1" 404 2370
+[14/Sep/2022 10:16:06] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03ÈM\x8c')
+[14/Sep/2022 10:16:06] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[14/Sep/2022 10:16:06] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03!9}v!¬;\x08Ò\x13N_\x99nRåî®oU\x93ø\x939Xþê]¸©iº\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[14/Sep/2022 10:16:06] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /
+[14/Sep/2022 10:16:07] "GET / HTTP/1.1" 404 2370
+[14/Sep/2022 13:48:46] code 400, message Bad request version ('OÑËÜ®Ëd')
+[14/Sep/2022 13:48:46] "   TZ         .    I¨À )z» zÚf Ò~Uñi»©                ÃÐ¢|¦v½óOÑËÜ®Ëd" 400 -
+Not Found: /c/
+[14/Sep/2022 14:56:46] "GET /c/ HTTP/1.1" 404 2394
+Invalid HTTP_HOST header: 'example.com'. You may need to add 'example.com' to ALLOWED_HOSTS.
+Bad Request: /http:/example.com/
+[14/Sep/2022 16:52:45] "GET http://example.com/ HTTP/1.1" 400 65507
+[14/Sep/2022 19:14:38] code 400, message Bad request version ('À\x14À')
+[14/Sep/2022 19:14:38] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /
+[14/Sep/2022 21:49:49] "GET / HTTP/1.1" 404 2370
+[15/Sep/2022 00:08:52] code 400, message Bad request syntax ('MGLNDD_192.46.213.101_8000')
+[15/Sep/2022 00:08:52] "MGLNDD_192.46.213.101_8000" 400 -
+Not Found: /
+[15/Sep/2022 00:29:52] "GET / HTTP/1.1" 404 2370
+Not Found: /
+[15/Sep/2022 00:51:32] "HEAD / HTTP/1.1" 404 2371
+Invalid HTTP_HOST header: '192-46-213-101.ip.linodeusercontent.com:8000'. You may need to add '192-46-213-101.ip.linodeusercontent.com' to ALLOWED_HOSTS.
+Bad Request: /
+[15/Sep/2022 05:06:41] "HEAD / HTTP/1.0" 400 65336
+Not Found: /system_api.php
+[15/Sep/2022 05:06:42] "GET /system_api.php HTTP/1.1" 404 2430
+Not Found: /c/version.js
+[15/Sep/2022 05:06:45] "GET /c/version.js HTTP/1.1" 404 2424
+Not Found: /streaming/clients_live.php
+[15/Sep/2022 05:06:48] "GET /streaming/clients_live.php HTTP/1.1" 404 2466
+Not Found: /stalker_portal/c/version.js
+[15/Sep/2022 05:06:51] "GET /stalker_portal/c/version.js HTTP/1.1" 404 2469
+Not Found: /stream/live.php
+[15/Sep/2022 05:06:54] "GET /stream/live.php HTTP/1.1" 404 2433
+Not Found: /flu/403.html
+[15/Sep/2022 05:06:58] "GET /flu/403.html HTTP/1.1" 404 2424
+Not Found: /
+[15/Sep/2022 05:07:01] "GET / HTTP/1.1" 404 2370
+[15/Sep/2022 05:34:08] code 400, message Bad request version ('iJ9\x02¢³\x96cDíY/Ðý\x12\x19HBqa\xad·V"eô\x8e\x13ÜÖ\x14â\x00(\x13\x02\x13\x01À,À+À0À/À$À#À(À\'À')
+[15/Sep/2022 05:34:08] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[15/Sep/2022 05:34:09] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x03\x00½\x01\x00\x00¹\x03\x03c"¹Qó\\ôÖìLßËîàP\x99þßñÆ\x13Ù°¼\x12½\x95ù\x10')
+[15/Sep/2022 05:34:09] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[15/Sep/2022 05:34:09] code 400, message Bad request syntax ('\x16\x03\x03\x00½\x01\x00\x00¹\x03\x03c"¹Q\x0e\x11S\x83\x10=\x92T8¼æÆÎ\x0f\x1aØÃÑäb³>\x12ÅC3àh\x00\x00$À,À+À0À/À$À#À(À\'À')
+[15/Sep/2022 05:34:09] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[15/Sep/2022 05:34:10] code 400, message Bad request version ('s\x9eéo¿@UÁ\x88°áÑUrGç\x89\x05¬õÔ(C<')
+[15/Sep/2022 05:34:10] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[15/Sep/2022 05:34:17] code 400, message Bad request version ("9}Z\x94dÆò¬¦±ñ²º¯\x80æÍºþ¥öjn\x8aë\x00(\x13\x02\x13\x01À,À+À0À/À$À#À(À'À")
+[15/Sep/2022 05:34:17] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[15/Sep/2022 05:34:17] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x03\x00½\x01\x00\x00¹\x03\x03c"¹YY\x07ù§\x92÷þMr=õO\x91*\x86\x8búe2X4¹N')
+[15/Sep/2022 05:34:17] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /
+[15/Sep/2022 05:39:27] "GET / HTTP/1.1" 404 2370
+Not Found: /
+[15/Sep/2022 06:06:37] "GET / HTTP/1.1" 404 2370
+Not Found: /
+[15/Sep/2022 06:27:39] "GET / HTTP/1.1" 404 2370
+[15/Sep/2022 08:13:37] code 400, message Bad request version ('À\x13À')
+[15/Sep/2022 08:13:37] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /
+[15/Sep/2022 08:13:48] "GET / HTTP/1.1" 404 2370
+----------------------------------------
+Exception occurred during processing of request from ('170.106.173.40', 40648)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[15/Sep/2022 08:13:54] "GET / HTTP/1.1" 404 2370
+Not Found: /favicon.ico
+[15/Sep/2022 08:13:55] "GET /favicon.ico HTTP/1.1" 404 2421
+[15/Sep/2022 22:12:44] code 400, message Bad request version ('À\x14À')
+[15/Sep/2022 22:12:44] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /
+[16/Sep/2022 01:53:54] "GET / HTTP/1.1" 404 2370
+[16/Sep/2022 02:35:44] code 400, message Bad HTTP/0.9 request type ('Z¥\x01')
+[16/Sep/2022 02:35:44] "Z¥     " 400 -
+[16/Sep/2022 03:01:32] code 400, message Bad request syntax ('MGLNDD_192.46.213.101_8000')
+[16/Sep/2022 03:01:32] "MGLNDD_192.46.213.101_8000" 400 -
+[16/Sep/2022 04:15:26] "GET /admin/ HTTP/1.1" 302 0
+[16/Sep/2022 05:29:08] code 400, message Bad request version ('À\x14À')
+[16/Sep/2022 05:29:08] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /
+[16/Sep/2022 06:31:19] "GET / HTTP/1.1" 404 2364
+----------------------------------------
+Exception occurred during processing of request from ('162.142.125.213', 52854)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[16/Sep/2022 09:01:52] "GET / HTTP/1.1" 404 2370
+----------------------------------------
+Exception occurred during processing of request from ('162.142.125.213', 48038)
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/Quick_Grader/Quick-Grader-Backend-master/env/lib/python3.10/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[16/Sep/2022 09:01:53] "GET / HTTP/1.1" 404 2370
+[16/Sep/2022 09:01:54] code 505, message Invalid HTTP version (2.0)
+[16/Sep/2022 09:01:54] "PRI * HTTP/2.0" 505 -
+Not Found: /
+[16/Sep/2022 11:33:20] "GET / HTTP/1.1" 404 2370
+Not Found: /
+[16/Sep/2022 12:53:22] "GET / HTTP/1.1" 404 2370
