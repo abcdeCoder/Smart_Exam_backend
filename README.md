@@ -29,3 +29,5 @@ pip install sklearn
 pip install tensorflow_hub
 python -m pip install Pillow
 pip install --no-deps tensorflow-io
+# files link
+https://drive.google.com/file/d/1TBzovq_F1NVmRqZSQ0HsMOs99-TCPt0n/view?usp=sharing
