@@ -2,7 +2,6 @@
 # Hello Developers Todays I want to introduce Full stack (Django+react+ml)
 #Here is frontend on react 
 ##                          
-<img src="https://github.com/abcdeCoder/Smart_Exam_backend/blob/main/Untitled.png"/>
 # Here The Live Link of Web
 
 # <a href="http://gvprojects.ml:3000/">Smart Exam</a>
