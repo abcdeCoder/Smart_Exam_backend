@@ -3,8 +3,6 @@
 #Here is frontend on react 
 ##                          
 <img src="https://github.com/abcdeCoder/Smart_Exam_backend/blob/main/Untitled.png"/>
-<img src="https://github.com/abcdeCoder/Smart_Exam_backend/blob/main/Untitled2.png"/>  
-<img src="https://github.com/abcdeCoder/Smart_Exam_backend/blob/main/Untitled3.png"/>  
 # Here The Live Link of Web
 
 # <a href="http://gvprojects.ml:3000/">Smart Exam</a>
