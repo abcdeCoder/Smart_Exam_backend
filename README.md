@@ -2,7 +2,7 @@
 # Hello Developers Todays I want to introduce Full stack (Django+react+ml)
 #Here is frontend on react 
 ##                          
-<img src="["https://github.com/abcdeCoder/Smart_Exam_backend/blob/main/Untitled.png"/>
+<img src="https://github.com/abcdeCoder/Smart_Exam_backend/blob/main/Untitled.png"/>
 <img src="https://github.com/abcdeCoder/Smart_Exam_backend/blob/main/Untitled2.png"/>  
 <img src="https://github.com/abcdeCoder/Smart_Exam_backend/blob/main/Untitled3.png"/>  
 # Here The Live Link of Web
