@@ -90,11 +90,11 @@ WSGI_APPLICATION = 'quickgrader.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'examsai',
-        'USER': 'gaurav',
-        'PASSWORD': 'Abc161966@',
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'NAME': 'quickconnct_wellmemory',
+        'USER': 'quickconnct_wellmemory',
+        'PASSWORD': 'a658863ad22faf623623dea682212d6c8a0878ba',
+        'HOST': 'btx68.h.filess.io',
+        'PORT': '3307',
     }
 }
 
